@@ -34,11 +34,10 @@ Write-Color "==> Creating JSON dump file..." Yellow
 
 winget export -o $wingetFileName 2>&1 | ForEach-Object {
   $message = $_.ToString()
-  if (-not $message.StartsWith("Installed package is not available from any source")) {
+  if (-not $message.StartsWith("Installed package is not available from any source") -and $message.Trim() -ne "") {
       Write-Host $message
   }
 }
-
 
 # Pushing to repo
 $Date = Get-Date -Format 'yyyyMMdd.HHmm'
