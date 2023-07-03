@@ -34,15 +34,14 @@ $wingetFileName = "./WingetExport.${HostName}.json"
 Write-Color "==> Creating JSON dump file..." Yellow
 
 winget export -o $wingetFileName 2>&1 | ForEach-Object {
-    if ($_ -is [System.Management.Automation.ErrorRecord]) {
-        $message = $_.ToString()
-        if (-not $message.StartsWith("Installed package is not available from any source")) {
-            Write-Host $message -ForegroundColor Red
-        }
-    }
-    elseif ($_.Trim() -ne "") {
-        Write-Host $_
-    }
+  if ($_ -is [System.Management.Automation.ErrorRecord]) {
+      $message = $_.ToString()
+      if (-not $message.StartsWith("Installed package is not available from any source")) {
+          Write-Host $message -ForegroundColor Red
+      }
+  } elseif ($_.Trim() -ne "") {
+      Write-Host $_
+  }
 }
 
 # Pushing to repo
