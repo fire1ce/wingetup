@@ -44,8 +44,6 @@ winget export -o $wingetFileName 2>&1 | ForEach-Object {
 # Pushing to repo
 $Date = Get-Date -Format 'yyyyMMdd.HHmm'
 Write-Host "Pushing to repository..."
-git config user.email "you@example.com" # Set your email here
-git config user.name "Your Name" # Set your name here
 git add .
 git commit -m "${Date}_update"
 git push
