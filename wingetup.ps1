@@ -10,7 +10,8 @@ function Write-Color($Text, $Color) {
 # Check if Git is installed, if not install it
 try {
     git --version | Out-Null
-} catch {
+}
+catch {
     Write-Host "Installing Git via winget..."
     winget install Git.Git
 }
@@ -33,10 +34,15 @@ $wingetFileName = "./WingetExport.${HostName}.json"
 Write-Color "==> Creating JSON dump file..." Yellow
 
 winget export -o $wingetFileName 2>&1 | ForEach-Object {
-  $message = $_.ToString()
-  if (-not $message.StartsWith("Installed package is not available from any source") -and $message.Trim() -ne "") {
-      Write-Host $message
-  }
+    if ($_ -is [System.Management.Automation.ErrorRecord]) {
+        $message = $_.ToString()
+        if (-not $message.StartsWith("Installed package is not available from any source")) {
+            Write-Host $message -ForegroundColor Red
+        }
+    }
+    elseif ($_.Trim() -ne "") {
+        Write-Host $_
+    }
 }
 
 # Pushing to repo
