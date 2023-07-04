@@ -1,5 +1,16 @@
 # PowerShell Script
-$ErrorActionPreference = 'Stop'
+$ErrorActionPreference = 'Continue'
+
+# Determine if the alias already exists
+$aliasExists = Get-Alias -Name wingetup -ErrorAction SilentlyContinue
+
+# If alias does not exist, create it
+if (!$aliasExists) {
+    # Append alias to profile file
+    "Set-Alias -Name wingetup -Value `"$((Get-Item -LiteralPath $PSCommandPath).FullName)`"" | Out-File -Append -Encoding utf8 -FilePath $PROFILE
+    Write-Host "Alias 'wingetup' has been created."
+}
+
 
 # Define function for writing colored text
 function Write-Color($Text, $Color) {
