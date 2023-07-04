@@ -16,7 +16,7 @@ if ($currentPolicy -ne 'RemoteSigned') {
     switch ($result) {
         0 { # User selected Yes
             try {
-                Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine -Force
+                Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
             } catch {
                 Write-Host "Failed to set execution policy. Please run the script as an administrator or change the execution policy manually."
                 exit 1
