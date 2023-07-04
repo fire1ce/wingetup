@@ -1,8 +1,15 @@
 # PowerShell Script
 $ErrorActionPreference = 'Continue'
 
-# Determine if the alias already exists
-$aliasExists = Get-Alias -Name wingetup -ErrorAction SilentlyContinue
+# Check if the script is running with the necessary execution policy
+if ((Get-ExecutionPolicy) -ne 'Bypass') {
+  # Relaunch the script with the necessary execution policy
+  PowerShell.exe -ExecutionPolicy Bypass -File $PSCommandPath
+  Exit
+}
+
+# # Determine if the alias already exists
+# $aliasExists = Get-Alias -Name wingetup -ErrorAction SilentlyContinue
 
 # Profile path for current user and all hosts
 $profilePath = $PROFILE.CurrentUserAllHosts
