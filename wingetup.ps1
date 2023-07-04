@@ -1,15 +1,33 @@
 # PowerShell Script
 $ErrorActionPreference = 'Continue'
 
-# Check if the script is running with the necessary execution policy
-if ((Get-ExecutionPolicy) -ne 'Bypass') {
-  # Relaunch the script with the necessary execution policy
-  PowerShell.exe -ExecutionPolicy Bypass -File $PSCommandPath
-  Exit
-}
+# Check if the execution policy permits running scripts
+$currentPolicy = Get-ExecutionPolicy -Scope CurrentUser
 
-# # Determine if the alias already exists
-# $aliasExists = Get-Alias -Name wingetup -ErrorAction SilentlyContinue
+if ($currentPolicy -ne 'RemoteSigned') {
+    # Prompt the user
+    $message = "The current execution policy is set to '$currentPolicy'. This script requires the execution policy to be set to 'RemoteSigned'. Changing the execution policy might have security implications. Do you want to proceed?"
+    $yes = New-Object System.Management.Automation.Host.ChoiceDescription "&Yes", "Sets the execution policy to 'RemoteSigned'."
+    $no = New-Object System.Management.Automation.Host.ChoiceDescription "&No", "Exits the script."
+    $options = [System.Management.Automation.Host.ChoiceDescription[]]($yes, $no)
+    $result = $host.ui.PromptForChoice("Change Execution Policy", $message, $options, 1)
+    
+    # Check user selection
+    switch ($result) {
+        0 { # User selected Yes
+            try {
+                Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+            } catch {
+                Write-Host "Failed to set execution policy. Please run the script as an administrator or change the execution policy manually."
+                exit 1
+            }
+        }
+        1 { # User selected No
+            Write-Host "User chose not to change the execution policy. Exiting script."
+            exit 1
+        }
+    }
+}
 
 # Profile path for current user and all hosts
 $profilePath = $PROFILE.CurrentUserAllHosts
