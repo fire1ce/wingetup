@@ -4,13 +4,20 @@ $ErrorActionPreference = 'Continue'
 # Determine if the alias already exists
 $aliasExists = Get-Alias -Name wingetup -ErrorAction SilentlyContinue
 
-# If alias does not exist, create it
-if (!$aliasExists) {
-    # Append alias to profile file
-    "Set-Alias -Name wingetup -Value `"$((Get-Item -LiteralPath $PSCommandPath).FullName)`"" | Out-File -Append -Encoding utf8 -FilePath $PROFILE
-    Write-Host "Alias 'wingetup' has been created."
+# Profile path for current user and all hosts
+$profilePath = $PROFILE.CurrentUserAllHosts
+
+# Check if the profile file exists, create it if not
+if (!(Test-Path $profilePath)) {
+    New-Item -Type File -Path $profilePath -Force
 }
 
+# Check if the alias exists, create it if not
+if (!(Get-Alias -Name "wingetup" -ErrorAction SilentlyContinue)) {
+    "Set-Alias -Name wingetup -Value `"$((Get-Item $MyInvocation.MyCommand.Path).FullName)`"" | Out-File -Append -Encoding utf8 -FilePath $profilePath
+    Write-Host "Alias 'wingetup' has been created."
+    . $profilePath # Reload the profile
+}
 
 # Define function for writing colored text
 function Write-Color($Text, $Color) {
