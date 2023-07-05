@@ -39,10 +39,11 @@ function UpdateOrCreateAlias {
   if (!(Test-Path $profilePath)) {
       New-Item -Type File -Path $profilePath -Force
   }
-  
-  $scriptPath = "`"$PSScriptRoot\$($MyInvocation.MyCommand.Name)`""
+
+  # Correct the scriptPath to point to the actual script 'wingetup.ps1'
+  $scriptPath = "`"$PSScriptRoot\wingetup.ps1`""
   $aliasContent = "Set-Alias -Name wingetup -Value $scriptPath"
-  
+
   Write-Host "Script path: $scriptPath"
   Write-Host "Alias content: $aliasContent"
 
@@ -59,6 +60,7 @@ function UpdateOrCreateAlias {
       Write-Host "Alias already exists in profile."
   }
 }
+
 
 
 
