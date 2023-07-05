@@ -85,9 +85,13 @@ function Main {
     $HostName = [System.Net.Dns]::GetHostName()
     $jsonFile = "$env:USERPROFILE\$HostName.json"
 
-    # Export installed packages to a JSON file
+    # Export installed packages to a variable
     Write-Color "==> Creating JSON dump file..." Yellow
-    winget export --output $jsonFile --include-versions | Select-String -Pattern "Installed package is not available from any source" -NotMatch
+    $wingetOutput = winget export --output $jsonFile --include-versions 2>&1
+
+    # Filter out the unwanted lines and save to JSON file
+    $filteredOutput = $wingetOutput | Where-Object { $_ -notmatch "Installed version of package is not available from any source" }
+    $filteredOutput | Out-File -FilePath $jsonFile
 
     # Check if git is available and initialized
     if (Test-Path .git) {
