@@ -87,7 +87,7 @@ function Main {
 
     # Export installed packages to a JSON file
     Write-Color "==> Creating JSON dump file..." Yellow
-    winget export --output $jsonFile --include-versions --include-msstore | Select-String -Pattern "Installed package is not available from any source" -NotMatch
+    winget export --output $jsonFile --include-versions | Select-String -Pattern "Installed package is not available from any source" -NotMatch
 
     # Check if git is available and initialized
     if (Test-Path .git) {
@@ -102,13 +102,6 @@ function Main {
     } else {
         Write-Color "No Git repository found. Skipping the git push step." Red
     }
-    
-    # Pushing to repo
-    $Date = Get-Date -Format 'yyyyMMdd.HHmm'
-    Write-Host "Pushing to repository..."
-    git add .
-    git commit -m "${Date}_update"
-    git push
     
     Write-Color "==> All Updates & Cleanups Finished" Green
 }
