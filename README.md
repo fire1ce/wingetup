@@ -49,6 +49,14 @@ After the initial run, you can run the script by typing `wingetup` in PowerShell
 wingetup
 ```
 
+## Installing Winget Packages From a Exported JSON File
+
+You can install Winget packages from a JSON file exported by the script. The JSON file contains the list of packages installed on the machine. To install the packages, run the following command in PowerShell:
+
+```shell
+winget import -i <path-to-json-file>
+```
+
 ## Notes
 
 - The script creates an alias `wingetup` that you can use to run the script with a simple command. Type `wingetup` in PowerShell to run the script.
