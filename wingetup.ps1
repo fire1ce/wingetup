@@ -34,25 +34,35 @@ function Set-ExecutionPolicyIfRequired {
 
 function UpdateOrCreateAlias {
   $profilePath = $PROFILE.CurrentUserAllHosts
+  Write-Host "Profile path: $profilePath"
+
   if (!(Test-Path $profilePath)) {
+      Write-Host "Profile not found. Creating a new profile file."
       New-Item -Type File -Path $profilePath -Force
   }
   
   $scriptName = [System.IO.Path]::GetFileName($PSCommandPath)
   $scriptPath = "$PSScriptRoot\$scriptName"
+  Write-Host "Script path: $scriptPath"
+
   $aliasContent = "Set-Alias -Name wingetup -Value `"$scriptPath`""
+  Write-Host "Alias content: $aliasContent"
   
   # Check if the alias content already exists in the profile
   $profileContent = Get-Content $profilePath -Raw
   if ($profileContent -notmatch [regex]::Escape($aliasContent)) {
       # Adding alias to profile
+      Write-Host "Adding alias to profile."
       Add-Content -Path $profilePath -Value $aliasContent
       Write-Host "Alias 'wingetup' has been updated."
       
       # Reload the profile to make alias available immediately
       . $profilePath
+  } else {
+      Write-Host "Alias already exists in profile."
   }
 }
+
 
 
 function InstallGitIfNotExists {
