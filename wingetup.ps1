@@ -33,21 +33,24 @@ function Set-ExecutionPolicyIfRequired {
 }
 
 function UpdateOrCreateAlias {
-    $profilePath = $PROFILE.CurrentUserAllHosts
-    if (!(Test-Path $profilePath)) {
-        New-Item -Type File -Path $profilePath -Force
-    }
-    
-    $scriptPath = "`"$PSScriptRoot\$($MyInvocation.MyCommand.Name)`""
-    $aliasContent = "Set-Alias -Name wingetup -Value $scriptPath"
-    
-    # Check if the alias content already exists in the profile
-    $profileContent = Get-Content $profilePath -Raw
-    if ($profileContent -notmatch [regex]::Escape($aliasContent)) {
-        $aliasContent | Out-File -Append -Encoding utf8 -FilePath $profilePath
-        Write-Host "Alias 'wingetup' has been updated."
-        . $profilePath # Reload the profile
-    }
+  $profilePath = $PROFILE.CurrentUserAllHosts
+  if (!(Test-Path $profilePath)) {
+      New-Item -Type File -Path $profilePath -Force
+  }
+  
+  $scriptPath = $PSScriptRoot + '\' + $MyInvocation.MyCommand.Name
+  $aliasContent = "Set-Alias -Name wingetup -Value `"$scriptPath`""
+  
+  # Check if the alias content already exists in the profile
+  $profileContent = Get-Content $profilePath -Raw
+  if ($profileContent -notmatch [regex]::Escape($aliasContent)) {
+      # Adding alias to profile
+      Add-Content -Path $profilePath -Value $aliasContent
+      Write-Host "Alias 'wingetup' has been updated."
+      
+      # Reload the profile to make alias available immediately
+      . $profilePath
+  }
 }
 
 function InstallGitIfNotExists {
