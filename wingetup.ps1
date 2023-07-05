@@ -34,7 +34,6 @@ function Set-ExecutionPolicyIfRequired {
 
 function UpdateOrCreateAlias {
   $profilePath = $PROFILE.CurrentUserAllHosts
-  Write-Host "Profile path: $profilePath"
 
   if (!(Test-Path $profilePath)) {
       New-Item -Type File -Path $profilePath -Force
@@ -43,9 +42,6 @@ function UpdateOrCreateAlias {
   # Correct the scriptPath to point to the actual script 'wingetup.ps1'
   $scriptPath = "`"$PSScriptRoot\wingetup.ps1`""
   $aliasContent = "Set-Alias -Name wingetup -Value $scriptPath"
-
-  Write-Host "Script path: $scriptPath"
-  Write-Host "Alias content: $aliasContent"
 
   # Check if the alias content already exists in the profile
   $profileContent = Get-Content $profilePath -Raw
@@ -56,15 +52,8 @@ function UpdateOrCreateAlias {
       $aliasContent | Out-File -Append -Encoding utf8 -FilePath $profilePath
       Write-Host "Alias 'wingetup' has been added."
       . $profilePath # Reload the profile
-  } else {
-      Write-Host "Alias already exists in profile."
-  }
+  } 
 }
-
-
-
-
-
 
 function InstallGitIfNotExists {
     try {
