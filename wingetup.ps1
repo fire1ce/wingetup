@@ -37,32 +37,29 @@ function UpdateOrCreateAlias {
   Write-Host "Profile path: $profilePath"
 
   if (!(Test-Path $profilePath)) {
-      Write-Host "Profile not found. Creating a new profile file."
       New-Item -Type File -Path $profilePath -Force
   }
   
-  $scriptName = [System.IO.Path]::GetFileName($PSCommandPath)
-  $scriptPath = "$PSScriptRoot\$scriptName"
-  Write-Host "Script path: $scriptPath"
-
-  $aliasName = "wingetup"
-  $aliasContent = "Set-Alias -Name $aliasName -Value `"$scriptPath`""
-  Write-Host "Alias content: $aliasContent"
+  $scriptPath = "`"$PSScriptRoot\$($MyInvocation.MyCommand.Name)`""
+  $aliasContent = "Set-Alias -Name wingetup -Value $scriptPath"
   
+  Write-Host "Script path: $scriptPath"
+  Write-Host "Alias content: $aliasContent"
+
   # Check if the alias content already exists in the profile
   $profileContent = Get-Content $profilePath -Raw
-  if ($profileContent -notmatch "Set-Alias -Name $aliasName") {
-      # Adding alias to profile
-      Write-Host "Adding alias to profile."
-      Add-Content -Path $profilePath -Value $aliasContent
-      Write-Host "Alias '$aliasName' has been updated."
-      
-      # Reload the profile to make alias available immediately
-      . $profilePath
+  Write-Host "Profile content: $profileContent"
+
+  if ($profileContent -notmatch [regex]::Escape($aliasContent)) {
+      Write-Host "Adding alias to profile..."
+      $aliasContent | Out-File -Append -Encoding utf8 -FilePath $profilePath
+      Write-Host "Alias 'wingetup' has been added."
+      . $profilePath # Reload the profile
   } else {
       Write-Host "Alias already exists in profile."
   }
 }
+
 
 
 
