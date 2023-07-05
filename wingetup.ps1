@@ -50,7 +50,7 @@ function UpdateOrCreateAlias {
   $profileContent = Get-Content $profilePath -Raw
   Write-Host "Profile content: $profileContent"
 
-  if ($profileContent -notmatch [regex]::Escape($aliasContent)) {
+  if ([string]::IsNullOrEmpty($profileContent) -or ($profileContent -notmatch [regex]::Escape($aliasContent))) {
       Write-Host "Adding alias to profile..."
       $aliasContent | Out-File -Append -Encoding utf8 -FilePath $profilePath
       Write-Host "Alias 'wingetup' has been added."
