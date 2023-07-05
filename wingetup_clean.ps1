@@ -83,9 +83,25 @@ function Main {
     
     # Create a JSON dump file with hostname
     $HostName = [System.Net.Dns]::GetHostName()
-    $wingetFileName = "./WingetExport.${HostName}.json"
+    $jsonFile = "$env:USERPROFILE\$HostName.json"
+
+    # Export installed packages to a JSON file
     Write-Color "==> Creating JSON dump file..." Yellow
-    winget export -o $wingetFileName
+    winget export --output $jsonFile --include-versions --include-msstore | Select-String -Pattern "Installed package is not available from any source" -NotMatch
+
+    # Check if git is available and initialized
+    if (Test-Path .git) {
+        # Add and commit changes to the git repository
+        Write-Color "==> Committing changes to Git repository..." Yellow
+        git add .
+        git commit -m "Update packages on $HostName"
+
+        # Push the changes to the Git repository
+        Write-Color "==> Pushing changes to Git repository..." Yellow
+        git push
+    } else {
+        Write-Color "No Git repository found. Skipping the git push step." Red
+    }
     
     # Pushing to repo
     $Date = Get-Date -Format 'yyyyMMdd.HHmm'
