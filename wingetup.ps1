@@ -37,11 +37,26 @@ if (!(Test-Path $profilePath)) {
     New-Item -Type File -Path $profilePath -Force
 }
 
-# Check if the alias exists, create it if not
-if (!(Get-Alias -Name "wingetup" -ErrorAction SilentlyContinue)) {
-    "Set-Alias -Name wingetup -Value `"$((Get-Item $MyInvocation.MyCommand.Path).FullName)`"" | Out-File -Append -Encoding utf8 -FilePath $profilePath
+# Check if the alias exists
+$existingAlias = Get-Alias -Name "wingetup" -ErrorAction SilentlyContinue
+$scriptPath = "`"$((Get-Item $MyInvocation.MyCommand.Path).FullName)`""
+
+# Update or create the alias
+if ($existingAlias) {
+    $existingAliasPath = $existingAlias.Definition
+    if ($existingAliasPath -ne $scriptPath) {
+        # Update the alias if the script path has changed
+        "Set-Alias -Name wingetup -Value $scriptPath" | Out-File -Encoding utf8 -FilePath $profilePath
+        Write-Host "Alias 'wingetup' has been updated."
+        # Reload the profile
+        . $profilePath
+    }
+} else {
+    # Create the alias if it doesn't exist
+    "Set-Alias -Name wingetup -Value $scriptPath" | Out-File -Append -Encoding utf8 -FilePath $profilePath
     Write-Host "Alias 'wingetup' has been created."
-    . $profilePath # Reload the profile
+    # Reload the profile
+    . $profilePath
 }
 
 # Define function for writing colored text
