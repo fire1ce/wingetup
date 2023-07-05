@@ -9,7 +9,7 @@ function Set-ExecutionPolicyIfRequired {
     $currentPolicy = Get-ExecutionPolicy -Scope CurrentUser
     if ($currentPolicy -ne 'RemoteSigned') {
         # Prompt the user
-        $message = "The current execution policy is set to '$currentPolicy'. This script requires the execution policy to be set to 'RemoteSigned'. Changing the execution policy might have security implications. For more information, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170. Do you want to proceed?"
+        $message = "The current execution policy is set to '$currentPolicy'. This script requires the execution policy to be set to 'RemoteSigned'. Changing the execution policy might have security implications. Do you want to proceed?"
         $yes = New-Object System.Management.Automation.Host.ChoiceDescription "&Yes", "Sets the execution policy to 'RemoteSigned'."
         $no = New-Object System.Management.Automation.Host.ChoiceDescription "&No", "Exits the script."
         $options = [System.Management.Automation.Host.ChoiceDescription[]]($yes, $no)
@@ -38,7 +38,7 @@ function UpdateOrCreateAlias {
         New-Item -Type File -Path $profilePath -Force
     }
     
-    $scriptPath = "`"$((Get-Item $MyInvocation.MyCommand.Path).FullName)`""
+    $scriptPath = "`"$PSScriptRoot\$($MyInvocation.MyCommand.Name)`""
     $aliasContent = "Set-Alias -Name wingetup -Value $scriptPath"
     
     # Check if the alias content already exists in the profile
@@ -70,7 +70,7 @@ function Main {
     InstallGitIfNotExists
     
     # Set working directory as the script location
-    $scriptDir = Split-Path -Parent -Path $MyInvocation.MyCommand.Definition
+    $scriptDir = $PSScriptRoot
     Set-Location $scriptDir
     
     # Update the Git repository
@@ -85,12 +85,7 @@ function Main {
     $HostName = [System.Net.Dns]::GetHostName()
     $wingetFileName = "./WingetExport.${HostName}.json"
     Write-Color "==> Creating JSON dump file..." Yellow
-    winget export -o $wingetFileName 2>&1 | ForEach-Object {
-        $message = $_.ToString()
-        if (-not $message.StartsWith("Installed package is not available from any source")) {
-            Write-Host $message
-        }
-    }
+    winget export -o $wingetFileName
     
     # Pushing to repo
     $Date = Get-Date -Format 'yyyyMMdd.HHmm'
