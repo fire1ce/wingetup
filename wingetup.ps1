@@ -38,7 +38,8 @@ function UpdateOrCreateAlias {
       New-Item -Type File -Path $profilePath -Force
   }
   
-  $scriptPath = $PSScriptRoot + '\' + $MyInvocation.MyCommand.Name
+  $scriptName = [System.IO.Path]::GetFileName($PSCommandPath)
+  $scriptPath = "$PSScriptRoot\$scriptName"
   $aliasContent = "Set-Alias -Name wingetup -Value `"$scriptPath`""
   
   # Check if the alias content already exists in the profile
@@ -52,6 +53,7 @@ function UpdateOrCreateAlias {
       . $profilePath
   }
 }
+
 
 function InstallGitIfNotExists {
     try {
