@@ -81,10 +81,6 @@ function Main {
     Write-Host "Updating Git repository..."
     git pull
     
-    # Winget packages update
-    Write-Color "==> Running Winget Updates..." Yellow
-    winget upgrade --all
-    
     # Create a JSON dump file with hostname
     $HostName = [System.Net.Dns]::GetHostName()
     $jsonFile = "$PSScriptRoot\WingetExport.$HostName.json"
@@ -93,10 +89,15 @@ function Main {
     Write-Color "==> Creating JSON dump file..." Yellow
     $wingetOutput = winget export --output $jsonFile --include-versions 2>&1
 
+    if ($LASTEXITCODE -ne 0) {
+        Write-Color "The 'winget export' command failed with exit code $LASTEXITCODE" Red
+    }
+
+    Write-Color "Winget output: $wingetOutput" Cyan
+
     # Filter out the unwanted lines and save to JSON file
     $filteredOutput = $wingetOutput | Where-Object { $_ -notmatch "Installed version of package is not available from any source" }
     $filteredOutput | Out-File -FilePath $jsonFile
-
 
     # Check if git is available and initialized
     if (Test-Path .git) {
