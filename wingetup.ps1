@@ -45,7 +45,6 @@ function UpdateOrCreateAlias {
 
   # Check if the alias content already exists in the profile
   $profileContent = Get-Content $profilePath -Raw
-  Write-Host "Profile content: $profileContent"
 
   if ([string]::IsNullOrEmpty($profileContent) -or ($profileContent -notmatch [regex]::Escape($aliasContent))) {
       Write-Host "Adding alias to profile..."
