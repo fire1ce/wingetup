@@ -87,11 +87,16 @@ function Main {
     
     # Create a JSON dump file with hostname
     $HostName = [System.Net.Dns]::GetHostName()
-    $jsonFile = "$env:USERPROFILE\$HostName.json"
+    $jsonFile = "$PSScriptRoot\WingetExport.$HostName.json"
 
-    # Export installed packages to a file directly
+    # Export installed packages to a variable
     Write-Color "==> Creating JSON dump file..." Yellow
-    winget export --output $jsonFile --include-versions
+    $wingetOutput = winget export --output $jsonFile --include-versions 2>&1
+
+    # Filter out the unwanted lines and save to JSON file
+    $filteredOutput = $wingetOutput | Where-Object { $_ -notmatch "Installed version of package is not available from any source" }
+    $filteredOutput | Out-File -FilePath $jsonFile
+
 
     # Check if git is available and initialized
     if (Test-Path .git) {
