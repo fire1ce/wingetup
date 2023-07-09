@@ -13,8 +13,18 @@ This script is designed to streamline and automate the process of updating Winge
 Repository Initialization
 Start by creating a new repository from this template repository. Clone the newly created repository to your local machine, selecting an appropriate directory for cloning. Use the following command by replacing <your-repo-url> with the URL of your repository:
 
+We recommend using the SSH for communication with the remote repository.
+
+Follow the instructions in the following link to configure your Windows ssh agent and create a ssh key pair. [Windows SSH Client with ed25519 Keys for Secure Connections](https://3os.org/windows/windows-ssh-agent-with-keys/)
+
+**Don't use HTTP:// or SSH: for cloning the repository.**
+
+Replace the clone command with **git@github.com:**<your-repo-url>
+
+Example:
+
 ```shell
-git clone <your-repo-url>
+git clone git@github.com:/fire1ce/wingetup.git
 ```
 
 ## Git Installation
