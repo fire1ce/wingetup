@@ -1,91 +1,122 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-04T14:31:58.065-00:00",
+	"CreationDate" : "2023-07-09T12:39:54.334-00:00",
 	"Sources" : 
 	[
 		{
 			"Packages" : 
 			[
 				{
-					"PackageIdentifier" : "PrimateLabs.Geekbench.6"
+					"PackageIdentifier" : "PrimateLabs.Geekbench.6",
+					"Version" : "Unknown"
 				},
 				{
-					"PackageIdentifier" : "Git.Git"
+					"PackageIdentifier" : "Git.Git",
+					"Version" : "2.41.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.Edge"
+					"PackageIdentifier" : "Microsoft.Edge",
+					"Version" : "114.0.1823.67"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
+					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
+					"Version" : "114.0.1823.67"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+					"PackageIdentifier" : "Microsoft.WindowsTerminal",
+					"Version" : "1.17.11461.0"
 				},
 				{
-					"PackageIdentifier" : "Mozilla.Firefox"
+					"PackageIdentifier" : "Mozilla.Firefox",
+					"Version" : "115.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.OneDrive"
+					"PackageIdentifier" : "Notepad++.Notepad++",
+					"Version" : "8.5.4"
 				},
 				{
-					"PackageIdentifier" : "Rufus.Rufus"
+					"PackageIdentifier" : "Microsoft.OneDrive",
+					"Version" : "23.127.0618.0001"
 				},
 				{
-					"PackageIdentifier" : "WinDirStat.WinDirStat"
+					"PackageIdentifier" : "Rufus.Rufus",
+					"Version" : "4.1"
 				},
 				{
-					"PackageIdentifier" : "RARLab.WinRAR"
+					"PackageIdentifier" : "WinDirStat.WinDirStat",
+					"Version" : "Unknown"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Community"
+					"PackageIdentifier" : "RARLab.WinRAR",
+					"Version" : "6.22.0"
 				},
 				{
-					"PackageIdentifier" : "WinSCP.WinSCP"
+					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Community",
+					"Version" : "17.6.4"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.Runtime.6"
+					"PackageIdentifier" : "WinSCP.WinSCP",
+					"Version" : "6.1.1"
 				},
 				{
-					"PackageIdentifier" : "7zip.7zip"
+					"PackageIdentifier" : "Microsoft.DotNet.Runtime.6",
+					"Version" : "6.0.19"
 				},
 				{
-					"PackageIdentifier" : "Samsung.SamsungMagician"
+					"PackageIdentifier" : "7zip.7zip",
+					"Version" : "23.01.00.0"
 				},
 				{
-					"PackageIdentifier" : "Python.Python.3.11"
+					"PackageIdentifier" : "Samsung.SamsungMagician",
+					"Version" : "7.3.0.1100"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
+					"PackageIdentifier" : "Python.Python.3.11",
+					"Version" : "3.11.4"
 				},
 				{
-					"PackageIdentifier" : "PuTTY.PuTTY"
+					"PackageIdentifier" : "Microsoft.PowerShell",
+					"Version" : "7.3.5.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.CLRTypesSQLServer.2019"
+					"PackageIdentifier" : "PuTTY.PuTTY",
+					"Version" : "0.78.0.0"
 				},
 				{
-					"PackageIdentifier" : "WiresharkFoundation.Wireshark"
+					"PackageIdentifier" : "Microsoft.CLRTypesSQLServer.2019",
+					"Version" : "15.0.2000.5"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
+					"Version" : "4.0.6.0"
 				},
 				{
-					"PackageIdentifier" : "AdoptOpenJDK.OpenJDK.16"
+					"PackageIdentifier" : "Microsoft.VisualStudioCode",
+					"Version" : "1.79.2"
 				},
 				{
-					"PackageIdentifier" : "VideoLAN.VLC"
+					"PackageIdentifier" : "AdoptOpenJDK.OpenJDK.16",
+					"Version" : "16.0.1.9"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome"
+					"PackageIdentifier" : "VideoLAN.VLC",
+					"Version" : "3.0.18"
 				},
 				{
-					"PackageIdentifier" : "Famatech.AdvancedIPScanner"
+					"PackageIdentifier" : "Google.Chrome",
+					"Version" : "114.0.5735.199"
 				},
 				{
-					"PackageIdentifier" : "SyncTrayzor.SyncTrayzor"
+					"PackageIdentifier" : "Famatech.AdvancedIPScanner",
+					"Version" : "2.5.4594.1"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.WindowsSDK.10.0.22000"
+					"PackageIdentifier" : "SyncTrayzor.SyncTrayzor",
+					"Version" : "1.1.29.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsSDK.10.0.22000",
+					"Version" : "10.0.22000.832"
 				}
 			],
 			"SourceDetails" : 
@@ -97,5 +128,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.4.11071"
+	"WinGetVersion" : "1.5.1572"
 }
