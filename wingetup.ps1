@@ -80,6 +80,10 @@ function Main {
     # Update the Git repository
     Write-Host "Updating Git repository..."
     git pull
+
+    ## Update winget packages
+    Write-Color "==> Updating winget packages..." Yellow
+    winget upgrade --all
     
     # Create a JSON dump file with hostname
     $HostName = [System.Net.Dns]::GetHostName()
