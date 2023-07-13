@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-08T20:33:28.833-00:00",
+	"CreationDate" : "2023-07-13T13:01:22.657-00:00",
 	"Sources" : 
 	[
 		{
@@ -20,11 +20,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "114.0.1823.67"
+					"Version" : "114.0.1823.79"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "114.0.1823.67"
+					"Version" : "114.0.1823.79"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
@@ -96,7 +96,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
-					"Version" : "6.0.19"
+					"Version" : "6.0.20"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
