@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-09T12:52:56.991-00:00",
+	"CreationDate" : "2023-07-13T12:59:37.368-00:00",
 	"Sources" : 
 	[
 		{
@@ -12,15 +12,15 @@
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.41.0"
+					"Version" : "2.41.0.2"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "114.0.1823.67"
+					"Version" : "114.0.1823.79"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "114.0.1823.67"
+					"Version" : "114.0.1823.79"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
@@ -28,7 +28,7 @@
 				},
 				{
 					"PackageIdentifier" : "Mozilla.Firefox",
-					"Version" : "115.0.1"
+					"Version" : "115.0.2"
 				},
 				{
 					"PackageIdentifier" : "Notepad++.Notepad++",
@@ -52,15 +52,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Community",
-					"Version" : "17.6.4"
+					"Version" : "17.6.5"
 				},
 				{
 					"PackageIdentifier" : "WinSCP.WinSCP",
 					"Version" : "6.1.1"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.Runtime.6",
-					"Version" : "6.0.19"
 				},
 				{
 					"PackageIdentifier" : "7zip.7zip",
@@ -73,6 +69,10 @@
 				{
 					"PackageIdentifier" : "Python.Python.3.11",
 					"Version" : "3.11.4"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.Runtime.6",
+					"Version" : "6.0.20"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell",
