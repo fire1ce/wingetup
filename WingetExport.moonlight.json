@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-13T13:01:22.657-00:00",
+	"CreationDate" : "2023-07-13T13:02:13.182-00:00",
 	"Sources" : 
 	[
 		{
@@ -12,7 +12,7 @@
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.41.0"
+					"Version" : "2.41.0.2"
 				},
 				{
 					"PackageIdentifier" : "REALiX.HWiNFO",
