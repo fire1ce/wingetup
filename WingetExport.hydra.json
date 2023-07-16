@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-13T12:59:37.368-00:00",
+	"CreationDate" : "2023-07-16T11:46:40.197-00:00",
 	"Sources" : 
 	[
 		{
@@ -16,11 +16,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "114.0.1823.79"
+					"Version" : "114.0.1823.82"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "114.0.1823.79"
+					"Version" : "114.0.1823.82"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
@@ -36,7 +36,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.OneDrive",
-					"Version" : "23.127.0618.0001"
+					"Version" : "23.132.0625.0001"
 				},
 				{
 					"PackageIdentifier" : "Rufus.Rufus",
@@ -87,16 +87,16 @@
 					"Version" : "15.0.2000.5"
 				},
 				{
-					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
-					"Version" : "4.0.6.0"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode",
-					"Version" : "1.80.0"
+					"Version" : "1.80.1"
 				},
 				{
 					"PackageIdentifier" : "AdoptOpenJDK.OpenJDK.16",
 					"Version" : "16.0.1.9"
+				},
+				{
+					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
+					"Version" : "4.0.7.0"
 				},
 				{
 					"PackageIdentifier" : "VideoLAN.VLC",
