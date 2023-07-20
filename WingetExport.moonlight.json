@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-13T13:02:13.182-00:00",
+	"CreationDate" : "2023-07-21T01:22:33.085-00:00",
 	"Sources" : 
 	[
 		{
@@ -8,7 +8,7 @@
 			[
 				{
 					"PackageIdentifier" : "Discord.Discord",
-					"Version" : "1.0.9013"
+					"Version" : "1.0.9015"
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
@@ -20,11 +20,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "114.0.1823.79"
+					"Version" : "114.0.1823.82"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "114.0.1823.79"
+					"Version" : "114.0.1823.82"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
@@ -84,7 +84,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell",
-					"Version" : "7.3.5.0"
+					"Version" : "7.3.6.0"
 				},
 				{
 					"PackageIdentifier" : "Logitech.OptionsPlus",
@@ -112,7 +112,7 @@
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "114.0.5735.199"
+					"Version" : "115.0.5790.99"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.XNARedist",
