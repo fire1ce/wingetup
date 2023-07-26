@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-22T02:28:35.663-00:00",
+	"CreationDate" : "2023-07-26T20:18:58.916-00:00",
 	"Sources" : 
 	[
 		{
@@ -12,7 +12,7 @@
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.41.0.2"
+					"Version" : "2.41.0.3"
 				},
 				{
 					"PackageIdentifier" : "REALiX.HWiNFO",
@@ -20,11 +20,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "114.0.1823.82"
+					"Version" : "115.0.1901.183"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "114.0.1823.82"
+					"Version" : "115.0.1901.183"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
@@ -49,10 +49,6 @@
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64",
 					"Version" : "12.0.40664.0"
-				},
-				{
-					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.8"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1",
@@ -87,6 +83,10 @@
 					"Version" : "7.3.6.0"
 				},
 				{
+					"PackageIdentifier" : "AgileBits.1Password",
+					"Version" : "8.10.9"
+				},
+				{
 					"PackageIdentifier" : "Logitech.OptionsPlus",
 					"Version" : "1.46.425296"
 				},
@@ -112,7 +112,7 @@
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "115.0.5790.102"
+					"Version" : "115.0.5790.110"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.XNARedist",
