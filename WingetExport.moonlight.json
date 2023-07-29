@@ -1,11 +1,15 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-28T21:11:04.577-00:00",
+	"CreationDate" : "2023-07-29T23:10:20.647-00:00",
 	"Sources" : 
 	[
 		{
 			"Packages" : 
 			[
+				{
+					"PackageIdentifier" : "NexusMods.Vortex",
+					"Version" : "1.8.5"
+				},
 				{
 					"PackageIdentifier" : "Discord.Discord",
 					"Version" : "1.0.9015"
@@ -20,7 +24,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "115.0.1901.183"
+					"Version" : "115.0.1901.188"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
@@ -32,6 +36,10 @@
 				},
 				{
 					"PackageIdentifier" : "RiotGames.LeagueOfLegends.EUW",
+					"Version" : "Unknown"
+				},
+				{
+					"PackageIdentifier" : "RiotGames.LeagueOfLegends.PBE",
 					"Version" : "Unknown"
 				},
 				{
