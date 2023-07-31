@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-29T23:10:20.647-00:00",
+	"CreationDate" : "2023-08-01T01:47:34.444-00:00",
 	"Sources" : 
 	[
 		{
@@ -28,7 +28,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "115.0.1901.183"
+					"Version" : "115.0.1901.188"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
