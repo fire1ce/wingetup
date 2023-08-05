@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-08-01T01:47:34.444-00:00",
+	"CreationDate" : "2023-08-05T17:14:22.374-00:00",
 	"Sources" : 
 	[
 		{
@@ -128,7 +128,7 @@
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "115.0.5790.110"
+					"Version" : "115.0.5790.111"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.XNARedist",
