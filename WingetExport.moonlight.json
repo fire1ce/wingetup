@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-08-07T22:42:37.231-00:00",
+	"CreationDate" : "2023-08-11T16:10:13.786-00:00",
 	"Sources" : 
 	[
 		{
@@ -8,7 +8,7 @@
 			[
 				{
 					"PackageIdentifier" : "NexusMods.Vortex",
-					"Version" : "1.8.5"
+					"Version" : "1.9.3"
 				},
 				{
 					"PackageIdentifier" : "Discord.Discord",
@@ -24,11 +24,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "115.0.1901.188"
+					"Version" : "115.0.1901.200"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "115.0.1901.188"
+					"Version" : "115.0.1901.200"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
@@ -61,6 +61,10 @@
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1",
 					"Version" : "3.1.32"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
+					"Version" : "6.0.21"
 				},
 				{
 					"PackageIdentifier" : "Elgato.StreamDeck",
@@ -96,27 +100,23 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
-					"Version" : "14.36.32532.0"
+					"Version" : "14.38.32919.0"
 				},
 				{
 					"PackageIdentifier" : "Logitech.OptionsPlus",
-					"Version" : "1.48.434174"
+					"Version" : "1.48.437015"
 				},
 				{
 					"PackageIdentifier" : "TechPowerUp.GPU-Z",
 					"Version" : "2.54.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
-					"Version" : "14.36.32532.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
-					"Version" : "6.0.20"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
 					"Version" : "12.0.40664.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
+					"Version" : "14.38.32919.0"
 				},
 				{
 					"PackageIdentifier" : "Nvidia.GeForceExperience",
