@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-08-11T16:10:13.786-00:00",
+	"CreationDate" : "2023-08-23T19:44:13.687-00:00",
 	"Sources" : 
 	[
 		{
@@ -20,15 +20,15 @@
 				},
 				{
 					"PackageIdentifier" : "REALiX.HWiNFO",
-					"Version" : "7.50"
+					"Version" : "7.60"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "115.0.1901.200"
+					"Version" : "115.0.1901.203"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "115.0.1901.200"
+					"Version" : "115.0.1901.203"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
@@ -52,7 +52,7 @@
 				},
 				{
 					"PackageIdentifier" : "RARLab.WinRAR",
-					"Version" : "6.22.0"
+					"Version" : "6.23.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64",
@@ -95,10 +95,6 @@
 					"Version" : "7.3.6.0"
 				},
 				{
-					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.9"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
 					"Version" : "14.38.32919.0"
 				},
@@ -109,6 +105,10 @@
 				{
 					"PackageIdentifier" : "TechPowerUp.GPU-Z",
 					"Version" : "2.54.0"
+				},
+				{
+					"PackageIdentifier" : "AgileBits.1Password",
+					"Version" : "8.10.12"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
@@ -128,7 +128,7 @@
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "115.0.5790.171"
+					"Version" : "> 116.0.5845.111"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.XNARedist",
@@ -152,5 +152,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.5.1881"
+	"WinGetVersion" : "1.5.2201"
 }
