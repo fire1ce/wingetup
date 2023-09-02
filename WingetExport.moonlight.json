@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-08-23T19:44:13.687-00:00",
+	"CreationDate" : "2023-09-02T17:19:45.054-00:00",
 	"Sources" : 
 	[
 		{
@@ -16,7 +16,7 @@
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.41.0.3"
+					"Version" : "2.42.0.2"
 				},
 				{
 					"PackageIdentifier" : "REALiX.HWiNFO",
@@ -24,11 +24,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "115.0.1901.203"
+					"Version" : "116.0.1938.62"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "115.0.1901.203"
+					"Version" : "116.0.1938.62"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
@@ -100,7 +100,7 @@
 				},
 				{
 					"PackageIdentifier" : "Logitech.OptionsPlus",
-					"Version" : "1.48.437015"
+					"Version" : "1.50.447400"
 				},
 				{
 					"PackageIdentifier" : "TechPowerUp.GPU-Z",
@@ -108,7 +108,7 @@
 				},
 				{
 					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.12"
+					"Version" : "8.10.13"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
@@ -128,7 +128,7 @@
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "> 116.0.5845.111"
+					"Version" : "> 116.0.5845.141"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.XNARedist",
