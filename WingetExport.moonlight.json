@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-09-06T02:06:43.796-00:00",
+	"CreationDate" : "2023-09-06T03:05:37.443-00:00",
 	"Sources" : 
 	[
 		{
@@ -67,10 +67,6 @@
 					"Version" : "6.0.21"
 				},
 				{
-					"PackageIdentifier" : "Elgato.StreamDeck",
-					"Version" : "6.3.0.18948"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64",
 					"Version" : "10.0.40219"
 				},
@@ -97,6 +93,14 @@
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
 					"Version" : "14.38.32919.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudioCode",
+					"Version" : "1.81.1"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.Framework.DeveloperPack_4",
+					"Version" : "4.8.1"
 				},
 				{
 					"PackageIdentifier" : "Logitech.OptionsPlus",
@@ -128,7 +132,7 @@
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "> 116.0.5845.141"
+					"Version" : "> 116.0.5845.180"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.XNARedist",
