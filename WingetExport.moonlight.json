@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-09-06T03:05:37.443-00:00",
+	"CreationDate" : "2023-09-10T10:51:48.796-00:00",
 	"Sources" : 
 	[
 		{
@@ -24,7 +24,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "116.0.1938.69"
+					"Version" : "116.0.1938.76"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
@@ -36,10 +36,6 @@
 				},
 				{
 					"PackageIdentifier" : "RiotGames.LeagueOfLegends.EUW",
-					"Version" : "Unknown"
-				},
-				{
-					"PackageIdentifier" : "RiotGames.LeagueOfLegends.PBE",
 					"Version" : "Unknown"
 				},
 				{
@@ -96,7 +92,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode",
-					"Version" : "1.81.1"
+					"Version" : "1.82.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.Framework.DeveloperPack_4",
