@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-09-19T11:45:55.912-00:00",
+	"CreationDate" : "2023-09-23T18:30:47.784-00:00",
 	"Sources" : 
 	[
 		{
@@ -20,19 +20,23 @@
 				},
 				{
 					"PackageIdentifier" : "REALiX.HWiNFO",
-					"Version" : "7.60"
+					"Version" : "7.62"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "117.0.2045.31"
+					"Version" : "117.0.2045.36"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "117.0.2045.31"
+					"Version" : "117.0.2045.36"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
 					"Version" : "1.17.11461.0"
+				},
+				{
+					"PackageIdentifier" : "Parsec.Parsec",
+					"Version" : "150-89d"
 				},
 				{
 					"PackageIdentifier" : "RiotGames.LeagueOfLegends.EUW",
@@ -63,6 +67,10 @@
 					"Version" : "6.0.22"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.PowerShell",
+					"Version" : "7.3.7.0"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64",
 					"Version" : "10.0.40219"
 				},
@@ -83,10 +91,6 @@
 					"Version" : "11.0.61030.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell",
-					"Version" : "7.3.6.0"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
 					"Version" : "14.38.32919.0"
 				},
@@ -104,7 +108,7 @@
 				},
 				{
 					"PackageIdentifier" : "Logitech.OptionsPlus",
-					"Version" : "1.52.457750"
+					"Version" : "1.52.458320"
 				},
 				{
 					"PackageIdentifier" : "TechPowerUp.GPU-Z",
@@ -128,7 +132,7 @@
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "117.0.5938.89"
+					"Version" : "117.0.5938.92"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.XNARedist",
