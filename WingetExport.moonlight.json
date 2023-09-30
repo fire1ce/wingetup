@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-09-23T18:30:47.784-00:00",
+	"CreationDate" : "2023-09-30T04:13:44.674-00:00",
 	"Sources" : 
 	[
 		{
@@ -8,7 +8,7 @@
 			[
 				{
 					"PackageIdentifier" : "NexusMods.Vortex",
-					"Version" : "1.9.3"
+					"Version" : "1.9.5"
 				},
 				{
 					"PackageIdentifier" : "Discord.Discord",
@@ -24,11 +24,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "117.0.2045.36"
+					"Version" : "117.0.2045.43"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "117.0.2045.36"
+					"Version" : "117.0.2045.43"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
@@ -91,6 +91,10 @@
 					"Version" : "11.0.61030.0"
 				},
 				{
+					"PackageIdentifier" : "Google.Chrome",
+					"Version" : "117.0.5938.132"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
 					"Version" : "14.38.32919.0"
 				},
@@ -131,10 +135,6 @@
 					"Version" : "9.21.0713"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "117.0.5938.92"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.XNARedist",
 					"Version" : "4.0.30901.0"
 				},
@@ -160,5 +160,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.5.2201"
+	"WinGetVersion" : "1.6.2701"
 }
