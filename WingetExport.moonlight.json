@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-10-13T16:23:40.621-00:00",
+	"CreationDate" : "2023-10-18T03:55:32.000-00:00",
 	"Sources" : 
 	[
 		{
@@ -20,19 +20,19 @@
 				},
 				{
 					"PackageIdentifier" : "REALiX.HWiNFO",
-					"Version" : "7.62"
+					"Version" : "7.64"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "117.0.2045.60"
+					"Version" : "118.0.2088.46"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "117.0.2045.60"
+					"Version" : "118.0.2088.46"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
-					"Version" : "1.18.2681.0"
+					"Version" : "1.18.2822.0"
 				},
 				{
 					"PackageIdentifier" : "OPAutoClicker.OPAutoClicker",
@@ -40,7 +40,7 @@
 				},
 				{
 					"PackageIdentifier" : "Parsec.Parsec",
-					"Version" : "150-89d"
+					"Version" : "150-90d"
 				},
 				{
 					"PackageIdentifier" : "RiotGames.LeagueOfLegends.EUW",
@@ -103,10 +103,6 @@
 					"Version" : "1.83.1"
 				},
 				{
-					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.16"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.DotNet.Framework.DeveloperPack_4",
 					"Version" : "4.8.1"
 				},
@@ -133,6 +129,10 @@
 				{
 					"PackageIdentifier" : "Nvidia.PhysX",
 					"Version" : "9.21.0713"
+				},
+				{
+					"PackageIdentifier" : "AgileBits.1Password",
+					"Version" : "8.10.18"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.XNARedist",
