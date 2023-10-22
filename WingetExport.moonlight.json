@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-10-18T03:55:32.000-00:00",
+	"CreationDate" : "2023-10-22T04:15:47.315-00:00",
 	"Sources" : 
 	[
 		{
@@ -24,7 +24,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "118.0.2088.46"
+					"Version" : "118.0.2088.57"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
@@ -64,7 +64,7 @@
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "118.0.5993.71"
+					"Version" : "118.0.5993.89"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1",
