@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-10-22T04:15:47.315-00:00",
+	"CreationDate" : "2023-11-16T00:23:40.669-00:00",
 	"Sources" : 
 	[
 		{
@@ -20,15 +20,19 @@
 				},
 				{
 					"PackageIdentifier" : "REALiX.HWiNFO",
-					"Version" : "7.64"
+					"Version" : "7.66"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "118.0.2088.57"
+					"Version" : "119.0.2151.58"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "118.0.2088.46"
+					"Version" : "119.0.2151.58"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DevHome",
+					"Version" : "0.601.297.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
@@ -39,8 +43,12 @@
 					"Version" : "1.0.0.2"
 				},
 				{
+					"PackageIdentifier" : "SoftFever.OrcaSlicer",
+					"Version" : "1.7.0"
+				},
+				{
 					"PackageIdentifier" : "Parsec.Parsec",
-					"Version" : "150-90d"
+					"Version" : "150-90e"
 				},
 				{
 					"PackageIdentifier" : "RiotGames.LeagueOfLegends.EUW",
@@ -56,23 +64,23 @@
 				},
 				{
 					"PackageIdentifier" : "RARLab.WinRAR",
-					"Version" : "6.23.0"
+					"Version" : "6.24.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64",
 					"Version" : "12.0.40664.0"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "118.0.5993.89"
+					"PackageIdentifier" : "AgileBits.1Password",
+					"Version" : "8.10.20"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1",
 					"Version" : "3.1.32"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell",
-					"Version" : "7.3.8.0"
+					"PackageIdentifier" : "Google.Chrome",
+					"Version" : "119.0.6045.160"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64",
@@ -108,11 +116,11 @@
 				},
 				{
 					"PackageIdentifier" : "Logitech.OptionsPlus",
-					"Version" : "1.54.466136"
+					"Version" : "1.56.474970"
 				},
 				{
 					"PackageIdentifier" : "TechPowerUp.GPU-Z",
-					"Version" : "2.54.0"
+					"Version" : "2.55.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
@@ -123,16 +131,16 @@
 					"Version" : "14.38.32919.0"
 				},
 				{
+					"PackageIdentifier" : "Mojang.MinecraftLauncher",
+					"Version" : "2.0.0.0"
+				},
+				{
 					"PackageIdentifier" : "Nvidia.GeForceExperience",
-					"Version" : "3.27.0.112"
+					"Version" : "3.27.0.120"
 				},
 				{
 					"PackageIdentifier" : "Nvidia.PhysX",
 					"Version" : "9.21.0713"
-				},
-				{
-					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.18"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.XNARedist",
@@ -151,8 +159,12 @@
 					"Version" : "11.0.61030.0"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.PowerShell",
+					"Version" : "7.3.9.0"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
-					"Version" : "6.0.23"
+					"Version" : "6.0.25"
 				}
 			],
 			"SourceDetails" : 
