@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-11-16T00:23:40.669-00:00",
+	"CreationDate" : "2023-12-04T22:26:23.506-00:00",
 	"Sources" : 
 	[
 		{
@@ -16,7 +16,7 @@
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.42.0.2"
+					"Version" : "2.43.0"
 				},
 				{
 					"PackageIdentifier" : "REALiX.HWiNFO",
@@ -24,19 +24,19 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "119.0.2151.58"
+					"Version" : "119.0.2151.93"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "119.0.2151.58"
+					"Version" : "119.0.2151.97"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DevHome",
-					"Version" : "0.601.297.0"
+					"Version" : "0.701.323.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
-					"Version" : "1.18.2822.0"
+					"Version" : "1.18.3181.0"
 				},
 				{
 					"PackageIdentifier" : "OPAutoClicker.OPAutoClicker",
@@ -44,7 +44,7 @@
 				},
 				{
 					"PackageIdentifier" : "SoftFever.OrcaSlicer",
-					"Version" : "1.7.0"
+					"Version" : "1.8.0"
 				},
 				{
 					"PackageIdentifier" : "Parsec.Parsec",
@@ -80,11 +80,15 @@
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "119.0.6045.160"
+					"Version" : "119.0.6045.200"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64",
 					"Version" : "10.0.40219"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
+					"Version" : "14.38.33130.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5",
@@ -99,16 +103,20 @@
 					"Version" : "7.3.0.1100"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
+					"Version" : "14.38.33130.0"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86",
 					"Version" : "11.0.61030.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
-					"Version" : "14.38.32919.0"
+					"PackageIdentifier" : "Microsoft.PowerShell",
+					"Version" : "7.3.10.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode",
-					"Version" : "1.83.1"
+					"Version" : "1.84.2"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.Framework.DeveloperPack_4",
@@ -116,7 +124,7 @@
 				},
 				{
 					"PackageIdentifier" : "Logitech.OptionsPlus",
-					"Version" : "1.56.474970"
+					"Version" : "1.58.484418"
 				},
 				{
 					"PackageIdentifier" : "TechPowerUp.GPU-Z",
@@ -125,10 +133,6 @@
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
 					"Version" : "12.0.40664.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
-					"Version" : "14.38.32919.0"
 				},
 				{
 					"PackageIdentifier" : "Mojang.MinecraftLauncher",
@@ -159,10 +163,6 @@
 					"Version" : "11.0.61030.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell",
-					"Version" : "7.3.9.0"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
 					"Version" : "6.0.25"
 				}
@@ -176,5 +176,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.6.2771"
+	"WinGetVersion" : "1.6.3133"
 }
