@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-10-29T10:37:16.929-00:00",
+	"CreationDate" : "2024-01-02T17:54:37.433-00:00",
 	"Sources" : 
 	[
 		{
@@ -16,31 +16,55 @@
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.42.0.2"
+					"Version" : "2.43.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "118.0.2088.69"
+					"Version" : "120.0.2210.91"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "118.0.2088.69"
+					"Version" : "120.0.2210.91"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.AppInstaller",
+					"Version" : "1.21.3482.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7",
+					"Version" : "7.2208.15002.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8",
+					"Version" : "8.2310.30001.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14",
+					"Version" : "14.0.32530.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DevHome",
+					"Version" : "0.801.344.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
-					"Version" : "1.18.2681.0"
+					"Version" : "1.18.3181.0"
 				},
 				{
 					"PackageIdentifier" : "Mozilla.Firefox",
-					"Version" : "119.0"
+					"Version" : "121.0"
+				},
+				{
+					"PackageIdentifier" : "Insecure.Nmap",
+					"Version" : "7.94"
 				},
 				{
 					"PackageIdentifier" : "Notepad++.Notepad++",
-					"Version" : "8.5.8"
+					"Version" : "8.6"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.OneDrive",
-					"Version" : "23.209.1008.0002"
+					"Version" : "23.246.1127.0002"
 				},
 				{
 					"PackageIdentifier" : "Rufus.Rufus",
@@ -52,35 +76,39 @@
 				},
 				{
 					"PackageIdentifier" : "RARLab.WinRAR",
-					"Version" : "6.23.0"
+					"Version" : "6.24.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Community",
-					"Version" : "17.7.6"
+					"Version" : "17.8.3"
 				},
 				{
 					"PackageIdentifier" : "WinSCP.WinSCP",
 					"Version" : "6.1.2"
 				},
 				{
-					"PackageIdentifier" : "VideoLAN.VLC",
-					"Version" : "3.0.19"
-				},
-				{
-					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
-					"Version" : "4.0.10.0"
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
+					"Version" : "14.38.33130.0"
 				},
 				{
 					"PackageIdentifier" : "7zip.7zip",
 					"Version" : "23.01.00.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell",
-					"Version" : "7.3.7.0"
+					"PackageIdentifier" : "Microsoft.DotNet.Runtime.6",
+					"Version" : "6.0.25"
 				},
 				{
 					"PackageIdentifier" : "Samsung.SamsungMagician",
 					"Version" : "7.3.0.1100"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
+					"Version" : "14.38.33130.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
+					"Version" : "6.0.25"
 				},
 				{
 					"PackageIdentifier" : "Python.Launcher",
@@ -88,35 +116,35 @@
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "118.0.5993.118"
-				},
-				{
-					"PackageIdentifier" : "TechSmith.Snagit.2023",
-					"Version" : "23.2.0.30713"
+					"Version" : "120.0.6099.130"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.CLRTypesSQLServer.2019",
 					"Version" : "15.0.2000.5"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.Runtime.6",
-					"Version" : "6.0.24"
+					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
+					"Version" : "4.2.0.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
-					"Version" : "14.38.32919.0"
+					"PackageIdentifier" : "Microsoft.PowerShell",
+					"Version" : "7.3.10.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode",
-					"Version" : "1.83.1"
+					"Version" : "1.85.1"
 				},
 				{
 					"PackageIdentifier" : "AdoptOpenJDK.OpenJDK.16",
 					"Version" : "16.0.1.9"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
-					"Version" : "14.36.32532.0"
+					"PackageIdentifier" : "VideoLAN.VLC",
+					"Version" : "3.0.20"
+				},
+				{
+					"PackageIdentifier" : "PuTTY.PuTTY",
+					"Version" : "0.80.0.0"
 				},
 				{
 					"PackageIdentifier" : "Python.Launcher",
@@ -125,10 +153,6 @@
 				{
 					"PackageIdentifier" : "Famatech.AdvancedIPScanner",
 					"Version" : "2.5.4594.1"
-				},
-				{
-					"PackageIdentifier" : "PuTTY.PuTTY",
-					"Version" : "0.79.0.0"
 				},
 				{
 					"PackageIdentifier" : "SyncTrayzor.SyncTrayzor",
@@ -141,6 +165,10 @@
 				{
 					"PackageIdentifier" : "Python.Python.3.11",
 					"Version" : "3.11.6"
+				},
+				{
+					"PackageIdentifier" : "TechSmith.Snagit.2023",
+					"Version" : "23.2.2.636"
 				}
 			],
 			"SourceDetails" : 
@@ -152,5 +180,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.6.2771"
+	"WinGetVersion" : "1.6.3482"
 }
