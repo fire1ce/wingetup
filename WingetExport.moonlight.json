@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-12-04T22:26:23.506-00:00",
+	"CreationDate" : "2024-01-04T23:01:12.116-00:00",
 	"Sources" : 
 	[
 		{
@@ -8,7 +8,7 @@
 			[
 				{
 					"PackageIdentifier" : "NexusMods.Vortex",
-					"Version" : "1.9.5"
+					"Version" : "1.9.10"
 				},
 				{
 					"PackageIdentifier" : "Discord.Discord",
@@ -20,19 +20,35 @@
 				},
 				{
 					"PackageIdentifier" : "REALiX.HWiNFO",
-					"Version" : "7.66"
+					"Version" : "7.68"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "119.0.2151.93"
+					"Version" : "120.0.2210.91"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "119.0.2151.97"
+					"Version" : "120.0.2210.91"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.AppInstaller",
+					"Version" : "1.21.3482.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7",
+					"Version" : "7.2208.15002.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8",
+					"Version" : "8.2310.30001.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14",
+					"Version" : "14.0.32530.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DevHome",
-					"Version" : "0.701.323.0"
+					"Version" : "0.801.344.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
@@ -44,11 +60,11 @@
 				},
 				{
 					"PackageIdentifier" : "SoftFever.OrcaSlicer",
-					"Version" : "1.8.0"
+					"Version" : "1.8.1"
 				},
 				{
 					"PackageIdentifier" : "Parsec.Parsec",
-					"Version" : "150-90e"
+					"Version" : "150-91a"
 				},
 				{
 					"PackageIdentifier" : "RiotGames.LeagueOfLegends.EUW",
@@ -71,20 +87,16 @@
 					"Version" : "12.0.40664.0"
 				},
 				{
-					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.20"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1",
 					"Version" : "3.1.32"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "119.0.6045.200"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64",
 					"Version" : "10.0.40219"
+				},
+				{
+					"PackageIdentifier" : "AgileBits.1Password",
+					"Version" : "8.10.23"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
@@ -116,7 +128,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode",
-					"Version" : "1.84.2"
+					"Version" : "1.85.1"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.Framework.DeveloperPack_4",
@@ -124,11 +136,15 @@
 				},
 				{
 					"PackageIdentifier" : "Logitech.OptionsPlus",
-					"Version" : "1.58.484418"
+					"Version" : "1.60.496306"
 				},
 				{
 					"PackageIdentifier" : "TechPowerUp.GPU-Z",
 					"Version" : "2.55.0"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome",
+					"Version" : "120.0.6099.200"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
@@ -176,5 +192,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.6.3133"
+	"WinGetVersion" : "1.6.3482"
 }
