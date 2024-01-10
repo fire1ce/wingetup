@@ -1,34 +1,70 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-13T13:02:13.182-00:00",
+	"CreationDate" : "2024-01-04T23:01:12.116-00:00",
 	"Sources" : 
 	[
 		{
 			"Packages" : 
 			[
 				{
+					"PackageIdentifier" : "NexusMods.Vortex",
+					"Version" : "1.9.10"
+				},
+				{
 					"PackageIdentifier" : "Discord.Discord",
-					"Version" : "1.0.9013"
+					"Version" : "1.0.9015"
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.41.0.2"
+					"Version" : "2.43.0"
 				},
 				{
 					"PackageIdentifier" : "REALiX.HWiNFO",
-					"Version" : "7.50"
+					"Version" : "7.68"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "114.0.1823.79"
+					"Version" : "120.0.2210.91"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "114.0.1823.79"
+					"Version" : "120.0.2210.91"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.AppInstaller",
+					"Version" : "1.21.3482.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7",
+					"Version" : "7.2208.15002.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8",
+					"Version" : "8.2310.30001.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14",
+					"Version" : "14.0.32530.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DevHome",
+					"Version" : "0.801.344.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
-					"Version" : "1.17.11461.0"
+					"Version" : "1.18.3181.0"
+				},
+				{
+					"PackageIdentifier" : "OPAutoClicker.OPAutoClicker",
+					"Version" : "1.0.0.2"
+				},
+				{
+					"PackageIdentifier" : "SoftFever.OrcaSlicer",
+					"Version" : "1.8.1"
+				},
+				{
+					"PackageIdentifier" : "Parsec.Parsec",
+					"Version" : "150-91a"
 				},
 				{
 					"PackageIdentifier" : "RiotGames.LeagueOfLegends.EUW",
@@ -44,27 +80,27 @@
 				},
 				{
 					"PackageIdentifier" : "RARLab.WinRAR",
-					"Version" : "6.22.0"
+					"Version" : "6.24.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64",
 					"Version" : "12.0.40664.0"
 				},
 				{
-					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.8"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1",
 					"Version" : "3.1.32"
 				},
 				{
-					"PackageIdentifier" : "Elgato.StreamDeck",
-					"Version" : "6.3.0.18948"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64",
 					"Version" : "10.0.40219"
+				},
+				{
+					"PackageIdentifier" : "AgileBits.1Password",
+					"Version" : "8.10.23"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
+					"Version" : "14.38.33130.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5",
@@ -79,40 +115,52 @@
 					"Version" : "7.3.0.1100"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
+					"Version" : "14.38.33130.0"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86",
 					"Version" : "11.0.61030.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell",
-					"Version" : "7.3.5.0"
+					"Version" : "7.3.10.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudioCode",
+					"Version" : "1.85.1"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.Framework.DeveloperPack_4",
+					"Version" : "4.8.1"
 				},
 				{
 					"PackageIdentifier" : "Logitech.OptionsPlus",
-					"Version" : "1.46.425296"
+					"Version" : "1.60.496306"
 				},
 				{
 					"PackageIdentifier" : "TechPowerUp.GPU-Z",
-					"Version" : "2.54.0"
+					"Version" : "2.55.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
-					"Version" : "6.0.20"
+					"PackageIdentifier" : "Google.Chrome",
+					"Version" : "120.0.6099.200"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
 					"Version" : "12.0.40664.0"
 				},
 				{
+					"PackageIdentifier" : "Mojang.MinecraftLauncher",
+					"Version" : "2.0.0.0"
+				},
+				{
 					"PackageIdentifier" : "Nvidia.GeForceExperience",
-					"Version" : "3.27.0.112"
+					"Version" : "3.27.0.120"
 				},
 				{
 					"PackageIdentifier" : "Nvidia.PhysX",
 					"Version" : "9.21.0713"
-				},
-				{
-					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "114.0.5735.199"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.XNARedist",
@@ -123,8 +171,16 @@
 					"Version" : "10.0.40219"
 				},
 				{
+					"PackageIdentifier" : "SyncTrayzor.SyncTrayzor",
+					"Version" : "1.1.29.0"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64",
 					"Version" : "11.0.61030.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
+					"Version" : "6.0.25"
 				}
 			],
 			"SourceDetails" : 
@@ -136,5 +192,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.5.1572"
+	"WinGetVersion" : "1.6.3482"
 }
