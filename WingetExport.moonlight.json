@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-01-04T23:01:12.116-00:00",
+	"CreationDate" : "2024-01-12T17:50:08.987-00:00",
 	"Sources" : 
 	[
 		{
@@ -24,11 +24,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "120.0.2210.91"
+					"Version" : "120.0.2210.121"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "120.0.2210.91"
+					"Version" : "120.0.2210.121"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller",
@@ -60,7 +60,7 @@
 				},
 				{
 					"PackageIdentifier" : "SoftFever.OrcaSlicer",
-					"Version" : "1.8.1"
+					"Version" : "1.9.0"
 				},
 				{
 					"PackageIdentifier" : "Parsec.Parsec",
@@ -140,11 +140,11 @@
 				},
 				{
 					"PackageIdentifier" : "TechPowerUp.GPU-Z",
-					"Version" : "2.55.0"
+					"Version" : "2.56.0"
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "120.0.6099.200"
+					"Version" : "120.0.6099.217"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
@@ -171,16 +171,16 @@
 					"Version" : "10.0.40219"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
+					"Version" : "6.0.26"
+				},
+				{
 					"PackageIdentifier" : "SyncTrayzor.SyncTrayzor",
 					"Version" : "1.1.29.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64",
 					"Version" : "11.0.61030.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
-					"Version" : "6.0.25"
 				}
 			],
 			"SourceDetails" : 
