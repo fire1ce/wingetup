@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-01-12T17:55:52.638-00:00",
+	"CreationDate" : "2024-01-17T22:22:54.629-00:00",
 	"Sources" : 
 	[
 		{
@@ -24,11 +24,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "120.0.2210.121"
+					"Version" : "120.0.2210.133"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "120.0.2210.121"
+					"Version" : "120.0.2210.133"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller",
@@ -48,7 +48,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DevHome",
-					"Version" : "0.801.344.0"
+					"Version" : "0.901.374.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
@@ -147,10 +147,6 @@
 					"Version" : "2.56.0"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "120.0.6099.217"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
 					"Version" : "12.0.40664.0"
 				},
@@ -169,6 +165,10 @@
 				{
 					"PackageIdentifier" : "Microsoft.XNARedist",
 					"Version" : "4.0.30901.0"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome",
+					"Version" : "120.0.6099.225"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86",
