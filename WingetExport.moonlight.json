@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-01-17T22:22:54.629-00:00",
+	"CreationDate" : "2024-02-14T19:56:46.344-00:00",
 	"Sources" : 
 	[
 		{
@@ -20,15 +20,15 @@
 				},
 				{
 					"PackageIdentifier" : "REALiX.HWiNFO",
-					"Version" : "7.68"
+					"Version" : "7.72"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "120.0.2210.133"
+					"Version" : "121.0.2277.112"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "120.0.2210.133"
+					"Version" : "121.0.2277.112"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller",
@@ -44,15 +44,15 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14",
-					"Version" : "14.0.32530.0"
+					"Version" : "14.0.33519.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DevHome",
-					"Version" : "0.901.374.0"
+					"Version" : "0.1001.389.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
-					"Version" : "1.18.3181.0"
+					"Version" : "1.18.10301.0"
 				},
 				{
 					"PackageIdentifier" : "OPAutoClicker.OPAutoClicker",
@@ -87,6 +87,10 @@
 					"Version" : "12.0.40664.0"
 				},
 				{
+					"PackageIdentifier" : "AgileBits.1Password",
+					"Version" : "8.10.24"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1",
 					"Version" : "3.1.32"
 				},
@@ -99,12 +103,8 @@
 					"Version" : "10.0.40219"
 				},
 				{
-					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.23"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
-					"Version" : "14.38.33130.0"
+					"PackageIdentifier" : "Microsoft.PowerShell",
+					"Version" : "7.3.11.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5",
@@ -113,6 +113,10 @@
 				{
 					"PackageIdentifier" : "7zip.7zip",
 					"Version" : "23.01.00.0"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome",
+					"Version" : "121.0.6167.185"
 				},
 				{
 					"PackageIdentifier" : "Samsung.SamsungMagician",
@@ -127,12 +131,8 @@
 					"Version" : "11.0.61030.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell",
-					"Version" : "7.3.10.0"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode",
-					"Version" : "1.85.1"
+					"Version" : "1.86.1"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.Framework.DeveloperPack_4",
@@ -140,11 +140,11 @@
 				},
 				{
 					"PackageIdentifier" : "Logitech.OptionsPlus",
-					"Version" : "1.60.496306"
+					"Version" : "1.62.520356"
 				},
 				{
 					"PackageIdentifier" : "TechPowerUp.GPU-Z",
-					"Version" : "2.56.0"
+					"Version" : "2.57.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
@@ -167,24 +167,24 @@
 					"Version" : "4.0.30901.0"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "120.0.6099.225"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86",
 					"Version" : "10.0.40219"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
-					"Version" : "6.0.26"
 				},
 				{
 					"PackageIdentifier" : "SyncTrayzor.SyncTrayzor",
 					"Version" : "1.1.29.0"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
+					"Version" : "14.38.33135.0"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64",
 					"Version" : "11.0.61030.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
+					"Version" : "6.0.27"
 				}
 			],
 			"SourceDetails" : 
