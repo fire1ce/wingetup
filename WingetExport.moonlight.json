@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-02-14T19:56:46.344-00:00",
+	"CreationDate" : "2024-02-17T13:35:15.419-00:00",
 	"Sources" : 
 	[
 		{
@@ -24,7 +24,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "121.0.2277.112"
+					"Version" : "121.0.2277.128"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
@@ -132,7 +132,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode",
-					"Version" : "1.86.1"
+					"Version" : "1.86.2"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.Framework.DeveloperPack_4",
