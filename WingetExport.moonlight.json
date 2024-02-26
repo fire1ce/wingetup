@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-02-18T21:22:26.489-00:00",
+	"CreationDate" : "2024-02-26T11:01:47.043-00:00",
 	"Sources" : 
 	[
 		{
@@ -8,7 +8,7 @@
 			[
 				{
 					"PackageIdentifier" : "NexusMods.Vortex",
-					"Version" : "1.9.10"
+					"Version" : "1.9.12"
 				},
 				{
 					"PackageIdentifier" : "Discord.Discord",
@@ -21,6 +21,10 @@
 				{
 					"PackageIdentifier" : "REALiX.HWiNFO",
 					"Version" : "7.72"
+				},
+				{
+					"PackageIdentifier" : "HermannSchinagl.LinkShellExtension",
+					"Version" : "3.9.3.5"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
@@ -48,11 +52,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DevHome",
-					"Version" : "0.1001.389.0"
+					"Version" : "0.1101.416.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
-					"Version" : "1.18.10301.0"
+					"Version" : "1.19.10302.0"
 				},
 				{
 					"PackageIdentifier" : "OPAutoClicker.OPAutoClicker",
@@ -60,11 +64,11 @@
 				},
 				{
 					"PackageIdentifier" : "SoftFever.OrcaSlicer",
-					"Version" : "1.9.0"
+					"Version" : "1.9.1"
 				},
 				{
 					"PackageIdentifier" : "Parsec.Parsec",
-					"Version" : "150-91a"
+					"Version" : "150-92a"
 				},
 				{
 					"PackageIdentifier" : "RiotGames.LeagueOfLegends.EUW",
@@ -87,10 +91,6 @@
 					"Version" : "12.0.40664.0"
 				},
 				{
-					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.24"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1",
 					"Version" : "3.1.32"
 				},
@@ -103,20 +103,12 @@
 					"Version" : "10.0.40219"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell",
-					"Version" : "7.3.11.0"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5",
 					"Version" : "5.0.17"
 				},
 				{
 					"PackageIdentifier" : "7zip.7zip",
 					"Version" : "23.01.00.0"
-				},
-				{
-					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "121.0.6167.185"
 				},
 				{
 					"PackageIdentifier" : "Samsung.SamsungMagician",
@@ -139,8 +131,12 @@
 					"Version" : "4.8.1"
 				},
 				{
+					"PackageIdentifier" : "Google.Chrome",
+					"Version" : "122.0.6261.70"
+				},
+				{
 					"PackageIdentifier" : "Logitech.OptionsPlus",
-					"Version" : "1.62.520356"
+					"Version" : "1.64.527952"
 				},
 				{
 					"PackageIdentifier" : "TechPowerUp.GPU-Z",
@@ -155,6 +151,10 @@
 					"Version" : "2.0.0.0"
 				},
 				{
+					"PackageIdentifier" : "AgileBits.1Password",
+					"Version" : "8.10.26"
+				},
+				{
 					"PackageIdentifier" : "Nvidia.GeForceExperience",
 					"Version" : "3.27.0.120"
 				},
@@ -163,12 +163,24 @@
 					"Version" : "9.21.0713"
 				},
 				{
+					"PackageIdentifier" : "valinet.ExplorerPatcher",
+					"Version" : "22621.3007.63.2"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.XNARedist",
 					"Version" : "4.0.30901.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86",
 					"Version" : "10.0.40219"
+				},
+				{
+					"PackageIdentifier" : "Open-Shell.Open-Shell-Menu",
+					"Version" : "4.4.191"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell",
+					"Version" : "7.4.1.0"
 				},
 				{
 					"PackageIdentifier" : "SyncTrayzor.SyncTrayzor",
