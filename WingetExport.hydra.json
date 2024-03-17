@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-03-17T11:04:04.770-00:00",
+	"CreationDate" : "2024-03-17T11:34:19.778-00:00",
 	"Sources" : 
 	[
 		{
@@ -48,7 +48,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller",
-					"Version" : "1.21.3482.0"
+					"Version" : "1.22.10661.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7",
@@ -68,7 +68,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
-					"Version" : "1.19.10302.0"
+					"Version" : "1.19.10573.0"
 				},
 				{
 					"PackageIdentifier" : "Mozilla.Firefox",
@@ -208,5 +208,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.6.3482"
+	"WinGetVersion" : "1.7.10661"
 }
