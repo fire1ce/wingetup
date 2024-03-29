@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-02-26T11:01:47.043-00:00",
+	"CreationDate" : "2024-03-29T18:23:00.710-00:00",
 	"Sources" : 
 	[
 		{
@@ -8,7 +8,7 @@
 			[
 				{
 					"PackageIdentifier" : "NexusMods.Vortex",
-					"Version" : "1.9.12"
+					"Version" : "1.10.8"
 				},
 				{
 					"PackageIdentifier" : "Discord.Discord",
@@ -16,11 +16,11 @@
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.43.0"
+					"Version" : "2.44.0"
 				},
 				{
 					"PackageIdentifier" : "REALiX.HWiNFO",
-					"Version" : "7.72"
+					"Version" : "8.00"
 				},
 				{
 					"PackageIdentifier" : "HermannSchinagl.LinkShellExtension",
@@ -28,15 +28,15 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "121.0.2277.128"
+					"Version" : "123.0.2420.65"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "121.0.2277.128"
+					"Version" : "122.0.2365.92"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller",
-					"Version" : "1.21.3482.0"
+					"Version" : "1.22.10861.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7",
@@ -52,11 +52,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DevHome",
-					"Version" : "0.1101.416.0"
+					"Version" : "0.1201.442.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
-					"Version" : "1.19.10302.0"
+					"Version" : "1.19.10573.0"
 				},
 				{
 					"PackageIdentifier" : "OPAutoClicker.OPAutoClicker",
@@ -64,7 +64,7 @@
 				},
 				{
 					"PackageIdentifier" : "SoftFever.OrcaSlicer",
-					"Version" : "1.9.1"
+					"Version" : "2.0.0"
 				},
 				{
 					"PackageIdentifier" : "Parsec.Parsec",
@@ -84,7 +84,7 @@
 				},
 				{
 					"PackageIdentifier" : "RARLab.WinRAR",
-					"Version" : "6.24.0"
+					"Version" : "7.00.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64",
@@ -115,16 +115,16 @@
 					"Version" : "7.3.0.1100"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
-					"Version" : "14.38.33130.0"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86",
 					"Version" : "11.0.61030.0"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
+					"Version" : "14.40.33617.1"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode",
-					"Version" : "1.86.2"
+					"Version" : "1.87.2"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.Framework.DeveloperPack_4",
@@ -132,11 +132,15 @@
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "122.0.6261.70"
+					"Version" : "123.0.6312.87"
 				},
 				{
 					"PackageIdentifier" : "Logitech.OptionsPlus",
-					"Version" : "1.64.527952"
+					"Version" : "1.68.542186"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
+					"Version" : "14.40.33617.1"
 				},
 				{
 					"PackageIdentifier" : "TechPowerUp.GPU-Z",
@@ -151,10 +155,6 @@
 					"Version" : "2.0.0.0"
 				},
 				{
-					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.26"
-				},
-				{
 					"PackageIdentifier" : "Nvidia.GeForceExperience",
 					"Version" : "3.27.0.120"
 				},
@@ -163,8 +163,8 @@
 					"Version" : "9.21.0713"
 				},
 				{
-					"PackageIdentifier" : "valinet.ExplorerPatcher",
-					"Version" : "22621.3007.63.2"
+					"PackageIdentifier" : "AgileBits.1Password",
+					"Version" : "8.10.28"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.XNARedist",
@@ -183,20 +183,16 @@
 					"Version" : "7.4.1.0"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
+					"Version" : "6.0.28"
+				},
+				{
 					"PackageIdentifier" : "SyncTrayzor.SyncTrayzor",
 					"Version" : "1.1.29.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
-					"Version" : "14.38.33135.0"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64",
 					"Version" : "11.0.61030.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
-					"Version" : "6.0.27"
 				}
 			],
 			"SourceDetails" : 
@@ -208,5 +204,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.6.3482"
+	"WinGetVersion" : "1.7.10861"
 }
