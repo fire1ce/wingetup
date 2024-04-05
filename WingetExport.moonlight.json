@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-03-29T18:25:05.348-00:00",
+	"CreationDate" : "2024-04-06T02:57:19.881-00:00",
 	"Sources" : 
 	[
 		{
@@ -32,7 +32,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "122.0.2365.92"
+					"Version" : "123.0.2420.81"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller",
@@ -56,7 +56,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
-					"Version" : "1.19.10573.0"
+					"Version" : "1.19.10821.0"
 				},
 				{
 					"PackageIdentifier" : "OPAutoClicker.OPAutoClicker",
@@ -124,7 +124,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode",
-					"Version" : "1.87.2"
+					"Version" : "1.88.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.Framework.DeveloperPack_4",
@@ -132,7 +132,7 @@
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "123.0.6312.87"
+					"Version" : "123.0.6312.106"
 				},
 				{
 					"PackageIdentifier" : "Logitech.OptionsPlus",
