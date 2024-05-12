@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-04-06T02:57:19.881-00:00",
+	"CreationDate" : "2024-05-12T18:47:20.819-00:00",
 	"Sources" : 
 	[
 		{
@@ -16,11 +16,11 @@
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.44.0"
+					"Version" : "2.45.0"
 				},
 				{
 					"PackageIdentifier" : "REALiX.HWiNFO",
-					"Version" : "8.00"
+					"Version" : "8.02"
 				},
 				{
 					"PackageIdentifier" : "HermannSchinagl.LinkShellExtension",
@@ -28,15 +28,15 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "123.0.2420.65"
+					"Version" : "124.0.2478.97"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "123.0.2420.81"
+					"Version" : "124.0.2478.97"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller",
-					"Version" : "1.22.10861.0"
+					"Version" : "1.22.11261.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7",
@@ -52,11 +52,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DevHome",
-					"Version" : "0.1201.442.0"
+					"Version" : "0.1301.477.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
-					"Version" : "1.19.10821.0"
+					"Version" : "1.19.11213.0"
 				},
 				{
 					"PackageIdentifier" : "OPAutoClicker.OPAutoClicker",
@@ -65,10 +65,6 @@
 				{
 					"PackageIdentifier" : "SoftFever.OrcaSlicer",
 					"Version" : "2.0.0"
-				},
-				{
-					"PackageIdentifier" : "Parsec.Parsec",
-					"Version" : "150-92a"
 				},
 				{
 					"PackageIdentifier" : "RiotGames.LeagueOfLegends.EUW",
@@ -119,24 +115,32 @@
 					"Version" : "11.0.61030.0"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
+					"Version" : "6.0.29"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
 					"Version" : "14.40.33617.1"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.PowerShell",
+					"Version" : "7.4.2.0"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome",
+					"Version" : "124.0.6367.202"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode",
-					"Version" : "1.88.0"
+					"Version" : "1.89.1"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.Framework.DeveloperPack_4",
 					"Version" : "4.8.1"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "123.0.6312.106"
-				},
-				{
 					"PackageIdentifier" : "Logitech.OptionsPlus",
-					"Version" : "1.68.542186"
+					"Version" : "1.70.551909"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
@@ -144,7 +148,7 @@
 				},
 				{
 					"PackageIdentifier" : "TechPowerUp.GPU-Z",
-					"Version" : "2.57.0"
+					"Version" : "2.59.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
@@ -156,7 +160,7 @@
 				},
 				{
 					"PackageIdentifier" : "Nvidia.GeForceExperience",
-					"Version" : "3.27.0.120"
+					"Version" : "3.28.0.412"
 				},
 				{
 					"PackageIdentifier" : "Nvidia.PhysX",
@@ -164,7 +168,7 @@
 				},
 				{
 					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.28"
+					"Version" : "8.10.30"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.XNARedist",
@@ -177,14 +181,6 @@
 				{
 					"PackageIdentifier" : "Open-Shell.Open-Shell-Menu",
 					"Version" : "4.4.191"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerShell",
-					"Version" : "7.4.1.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
-					"Version" : "6.0.28"
 				},
 				{
 					"PackageIdentifier" : "SyncTrayzor.SyncTrayzor",
@@ -204,5 +200,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.7.10861"
+	"WinGetVersion" : "1.7.11261"
 }
