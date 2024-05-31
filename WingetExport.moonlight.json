@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-05-12T18:47:20.819-00:00",
+	"CreationDate" : "2024-05-31T14:39:03.184-00:00",
 	"Sources" : 
 	[
 		{
@@ -11,12 +11,16 @@
 					"Version" : "1.10.8"
 				},
 				{
+					"PackageIdentifier" : "Brave.Brave",
+					"Version" : "125.1.66.115"
+				},
+				{
 					"PackageIdentifier" : "Discord.Discord",
 					"Version" : "1.0.9015"
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.45.0"
+					"Version" : "2.45.1"
 				},
 				{
 					"PackageIdentifier" : "REALiX.HWiNFO",
@@ -28,11 +32,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "124.0.2478.97"
+					"Version" : "125.0.2535.67"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "124.0.2478.97"
+					"Version" : "125.0.2535.79"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller",
@@ -48,15 +52,15 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14",
-					"Version" : "14.0.33519.0"
+					"Version" : "14.0.33728.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DevHome",
-					"Version" : "0.1301.477.0"
+					"Version" : "0.1401.505.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
-					"Version" : "1.19.11213.0"
+					"Version" : "1.20.11271.0"
 				},
 				{
 					"PackageIdentifier" : "OPAutoClicker.OPAutoClicker",
@@ -80,7 +84,7 @@
 				},
 				{
 					"PackageIdentifier" : "RARLab.WinRAR",
-					"Version" : "7.00.0"
+					"Version" : "7.01.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64",
@@ -104,7 +108,7 @@
 				},
 				{
 					"PackageIdentifier" : "7zip.7zip",
-					"Version" : "23.01.00.0"
+					"Version" : "24.06.00.0"
 				},
 				{
 					"PackageIdentifier" : "Samsung.SamsungMagician",
@@ -115,20 +119,12 @@
 					"Version" : "11.0.61030.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
-					"Version" : "6.0.29"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
 					"Version" : "14.40.33617.1"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell",
 					"Version" : "7.4.2.0"
-				},
-				{
-					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "124.0.6367.202"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode",
@@ -140,7 +136,7 @@
 				},
 				{
 					"PackageIdentifier" : "Logitech.OptionsPlus",
-					"Version" : "1.70.551909"
+					"Version" : "1.72.568951"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
@@ -151,6 +147,10 @@
 					"Version" : "2.59.0"
 				},
 				{
+					"PackageIdentifier" : "Google.Chrome",
+					"Version" : "125.0.6422.142"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
 					"Version" : "12.0.40664.0"
 				},
@@ -159,16 +159,16 @@
 					"Version" : "2.0.0.0"
 				},
 				{
+					"PackageIdentifier" : "AgileBits.1Password",
+					"Version" : "8.10.33"
+				},
+				{
 					"PackageIdentifier" : "Nvidia.GeForceExperience",
 					"Version" : "3.28.0.412"
 				},
 				{
 					"PackageIdentifier" : "Nvidia.PhysX",
-					"Version" : "9.21.0713"
-				},
-				{
-					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.30"
+					"Version" : "9.23.1019"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.XNARedist",
@@ -181,6 +181,10 @@
 				{
 					"PackageIdentifier" : "Open-Shell.Open-Shell-Menu",
 					"Version" : "4.4.191"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys",
+					"Version" : "0.81.1"
 				},
 				{
 					"PackageIdentifier" : "SyncTrayzor.SyncTrayzor",
