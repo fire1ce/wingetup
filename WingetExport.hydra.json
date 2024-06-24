@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-03-17T11:34:19.778-00:00",
+	"CreationDate" : "2024-06-24T11:04:21.407-00:00",
 	"Sources" : 
 	[
 		{
@@ -24,7 +24,7 @@
 			[
 				{
 					"PackageIdentifier" : "PortSwigger.BurpSuite.Professional",
-					"Version" : "2023.12.1.5"
+					"Version" : "2024.5.3"
 				},
 				{
 					"PackageIdentifier" : "angryziber.AngryIPScanner",
@@ -36,19 +36,19 @@
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.44.0"
+					"Version" : "2.45.2"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "122.0.2365.92"
+					"Version" : "126.0.2592.68"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "122.0.2365.92"
+					"Version" : "126.0.2592.68"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller",
-					"Version" : "1.22.10661.0"
+					"Version" : "1.22.11261.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7",
@@ -60,19 +60,23 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14",
-					"Version" : "14.0.33519.0"
+					"Version" : "14.0.33728.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DevHome",
-					"Version" : "0.1101.416.0"
+					"Version" : "0.1501.533.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
-					"Version" : "1.19.10573.0"
+					"Version" : "1.20.11381.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Teams.Free",
+					"Version" : "24124.2402.2858.5617"
 				},
 				{
 					"PackageIdentifier" : "Mozilla.Firefox",
-					"Version" : "123.0.1"
+					"Version" : "127.0"
 				},
 				{
 					"PackageIdentifier" : "Insecure.Nmap",
@@ -80,15 +84,19 @@
 				},
 				{
 					"PackageIdentifier" : "Notepad++.Notepad++",
-					"Version" : "8.6.4"
+					"Version" : "8.6.8"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.OneDrive",
-					"Version" : "24.040.0225.0003"
+					"Version" : "24.111.0602.0003"
+				},
+				{
+					"PackageIdentifier" : "Postman.Postman",
+					"Version" : "11.2.0"
 				},
 				{
 					"PackageIdentifier" : "Rufus.Rufus",
-					"Version" : "4.4"
+					"Version" : "4.5"
 				},
 				{
 					"PackageIdentifier" : "WinDirStat.WinDirStat",
@@ -96,23 +104,27 @@
 				},
 				{
 					"PackageIdentifier" : "RARLab.WinRAR",
-					"Version" : "7.00.0"
+					"Version" : "7.01.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Community",
-					"Version" : "17.9.1"
+					"Version" : "17.10.3"
 				},
 				{
 					"PackageIdentifier" : "WinSCP.WinSCP",
-					"Version" : "6.3.2"
+					"Version" : "6.3.4"
 				},
 				{
-					"PackageIdentifier" : "VMware.WorkstationPro",
-					"Version" : "17.5.0"
+					"PackageIdentifier" : "Python.Python.3.11",
+					"Version" : "3.11.9"
 				},
 				{
 					"PackageIdentifier" : "7zip.7zip",
-					"Version" : "23.01.00.0"
+					"Version" : "24.07.00.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.Runtime.6",
+					"Version" : "6.0.31"
 				},
 				{
 					"PackageIdentifier" : "Samsung.SamsungMagician",
@@ -123,60 +135,56 @@
 					"Version" : "3.12.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
-					"Version" : "14.40.33617.1"
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
+					"Version" : "14.40.33810.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell",
+					"Version" : "7.4.2.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.CLRTypesSQLServer.2019",
 					"Version" : "15.0.2000.5"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
-					"Version" : "6.0.28"
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
+					"Version" : "14.40.33810.0"
+				},
+				{
+					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
+					"Version" : "4.2.5.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode",
-					"Version" : "1.87.2"
+					"Version" : "1.90.2"
 				},
 				{
 					"PackageIdentifier" : "AdoptOpenJDK.OpenJDK.16",
 					"Version" : "16.0.1.9"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "122.0.6261.129"
-				},
-				{
 					"PackageIdentifier" : "Fortinet.FortiClientVPN",
 					"Version" : "7.0.1.0083"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
-					"Version" : "14.40.33617.1"
 				},
 				{
 					"PackageIdentifier" : "VideoLAN.VLC",
 					"Version" : "3.0.20"
 				},
 				{
-					"PackageIdentifier" : "PuTTY.PuTTY",
-					"Version" : "0.80.0.0"
-				},
-				{
 					"PackageIdentifier" : "Python.Launcher",
 					"Version" : "< 3.12.0"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome",
+					"Version" : "126.0.6478.115"
 				},
 				{
 					"PackageIdentifier" : "Famatech.AdvancedIPScanner",
 					"Version" : "2.5.4594.1"
 				},
 				{
-					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
-					"Version" : "4.2.3.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerShell",
-					"Version" : "7.4.1.0"
+					"PackageIdentifier" : "PuTTY.PuTTY",
+					"Version" : "0.81.0.0"
 				},
 				{
 					"PackageIdentifier" : "SyncTrayzor.SyncTrayzor",
@@ -187,16 +195,8 @@
 					"Version" : "10.0.22000.832"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.Runtime.6",
-					"Version" : "6.0.28"
-				},
-				{
-					"PackageIdentifier" : "Python.Python.3.11",
-					"Version" : "3.11.6"
-				},
-				{
 					"PackageIdentifier" : "TechSmith.Snagit.2023",
-					"Version" : "23.2.2.636"
+					"Version" : "23.2.5.2745"
 				}
 			],
 			"SourceDetails" : 
@@ -208,5 +208,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.7.10661"
+	"WinGetVersion" : "1.7.11261"
 }
