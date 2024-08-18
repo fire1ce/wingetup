@@ -1,50 +1,150 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-05-31T14:45:12.321-00:00",
+	"CreationDate" : "2024-08-18T15:04:23.277-00:00",
 	"Sources" : 
 	[
 		{
 			"Packages" : 
 			[
 				{
-					"PackageIdentifier" : "NexusMods.Vortex",
-					"Version" : "1.10.8"
+					"PackageIdentifier" : "7zip.7zip",
+					"Version" : "24.08"
 				},
 				{
-					"PackageIdentifier" : "Brave.Brave",
-					"Version" : "125.1.66.115"
-				},
-				{
-					"PackageIdentifier" : "Discord.Discord",
-					"Version" : "1.0.9015"
+					"PackageIdentifier" : "CrystalDewWorld.CrystalDiskMark",
+					"Version" : "8.0.5"
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.45.1"
+					"Version" : "2.46.0"
 				},
 				{
-					"PackageIdentifier" : "REALiX.HWiNFO",
-					"Version" : "8.02"
+					"PackageIdentifier" : "Mozilla.Firefox",
+					"Version" : "129.0.1"
 				},
 				{
-					"PackageIdentifier" : "HermannSchinagl.LinkShellExtension",
-					"Version" : "3.9.3.5"
+					"PackageIdentifier" : "LizardByte.Sunshine",
+					"Version" : "0.23.1"
+				},
+				{
+					"PackageIdentifier" : "RARLab.WinRAR",
+					"Version" : "7.01.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64",
+					"Version" : "10.0.40219"
+				},
+				{
+					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
+					"Version" : "4.2.6.0"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli",
+					"Version" : "2.54.0"
+				},
+				{
+					"PackageIdentifier" : "AgileBits.1Password",
+					"Version" : "8.10.40"
+				},
+				{
+					"PackageIdentifier" : "ViGEm.ViGEmBus",
+					"Version" : "1.22.0"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome",
+					"Version" : "127.0.6533.120"
+				},
+				{
+					"PackageIdentifier" : "Nvidia.PhysX",
+					"Version" : "9.23.1019"
+				},
+				{
+					"PackageIdentifier" : "PuTTY.PuTTY",
+					"Version" : "0.81.0.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "125.0.2535.67"
+					"Version" : "127.0.2651.105"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "125.0.2535.79"
+					"Version" : "127.0.2651.105"
+				},
+				{
+					"PackageIdentifier" : "Insecure.Nmap",
+					"Version" : "7.80"
+				},
+				{
+					"PackageIdentifier" : "SoftFever.OrcaSlicer",
+					"Version" : "2.1.1"
+				},
+				{
+					"PackageIdentifier" : "Valve.Steam",
+					"Version" : "2.10.91.91"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64",
+					"Version" : "12.0.40664.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
+					"Version" : "14.40.33810.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
+					"Version" : "14.40.33810.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2005.x86",
+					"Version" : "8.0.61001"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86",
+					"Version" : "9.0.30729.6161"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
+					"Version" : "12.0.40664.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86",
+					"Version" : "10.0.40219"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
+					"Version" : "6.0.33"
+				},
+				{
+					"PackageIdentifier" : "Brave.Brave",
+					"Version" : "127.1.68.141"
+				},
+				{
+					"PackageIdentifier" : "Discord.Discord",
+					"Version" : "1.0.9158"
+				},
+				{
+					"PackageIdentifier" : "GodotEngine.GodotEngine",
+					"Version" : "4.3"
+				},
+				{
+					"PackageIdentifier" : "Gyan.FFmpeg",
+					"Version" : "7.0.2"
+				},
+				{
+					"PackageIdentifier" : "Spotify.Spotify",
+					"Version" : "1.2.44.405.g81fd6352"
+				},
+				{
+					"PackageIdentifier" : "WinSCP.WinSCP",
+					"Version" : "6.3.4"
+				},
+				{
+					"PackageIdentifier" : "LocalSend.LocalSend",
+					"Version" : "1.14.0.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller",
-					"Version" : "1.22.11261.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7",
-					"Version" : "7.2208.15002.0"
+					"Version" : "1.23.1911.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8",
@@ -53,146 +153,6 @@
 				{
 					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14",
 					"Version" : "14.0.33728.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DevHome",
-					"Version" : "0.1401.505.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.WindowsTerminal",
-					"Version" : "1.20.11271.0"
-				},
-				{
-					"PackageIdentifier" : "OPAutoClicker.OPAutoClicker",
-					"Version" : "1.0.0.2"
-				},
-				{
-					"PackageIdentifier" : "SoftFever.OrcaSlicer",
-					"Version" : "2.0.0"
-				},
-				{
-					"PackageIdentifier" : "RiotGames.LeagueOfLegends.EUW",
-					"Version" : "Unknown"
-				},
-				{
-					"PackageIdentifier" : "Valve.Steam",
-					"Version" : "2.10.91.91"
-				},
-				{
-					"PackageIdentifier" : "WinDirStat.WinDirStat",
-					"Version" : "Unknown"
-				},
-				{
-					"PackageIdentifier" : "RARLab.WinRAR",
-					"Version" : "7.01.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64",
-					"Version" : "12.0.40664.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1",
-					"Version" : "3.1.32"
-				},
-				{
-					"PackageIdentifier" : "Synology.DriveClient",
-					"Version" : "7.4.0.15724"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64",
-					"Version" : "10.0.40219"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5",
-					"Version" : "5.0.17"
-				},
-				{
-					"PackageIdentifier" : "7zip.7zip",
-					"Version" : "24.06.00.0"
-				},
-				{
-					"PackageIdentifier" : "Samsung.SamsungMagician",
-					"Version" : "7.3.0.1100"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86",
-					"Version" : "11.0.61030.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
-					"Version" : "14.40.33617.1"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerShell",
-					"Version" : "7.4.2.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VisualStudioCode",
-					"Version" : "1.89.1"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.Framework.DeveloperPack_4",
-					"Version" : "4.8.1"
-				},
-				{
-					"PackageIdentifier" : "Logitech.OptionsPlus",
-					"Version" : "1.72.568951"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
-					"Version" : "14.40.33617.1"
-				},
-				{
-					"PackageIdentifier" : "TechPowerUp.GPU-Z",
-					"Version" : "2.59.0"
-				},
-				{
-					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "125.0.6422.142"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
-					"Version" : "12.0.40664.0"
-				},
-				{
-					"PackageIdentifier" : "Mojang.MinecraftLauncher",
-					"Version" : "2.0.0.0"
-				},
-				{
-					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.33"
-				},
-				{
-					"PackageIdentifier" : "Nvidia.GeForceExperience",
-					"Version" : "3.28.0.412"
-				},
-				{
-					"PackageIdentifier" : "Nvidia.PhysX",
-					"Version" : "9.23.1019"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.XNARedist",
-					"Version" : "4.0.30901.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86",
-					"Version" : "10.0.40219"
-				},
-				{
-					"PackageIdentifier" : "Open-Shell.Open-Shell-Menu",
-					"Version" : "4.4.191"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerToys",
-					"Version" : "0.81.1"
-				},
-				{
-					"PackageIdentifier" : "SyncTrayzor.SyncTrayzor",
-					"Version" : "1.1.29.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64",
-					"Version" : "11.0.61030.0"
 				}
 			],
 			"SourceDetails" : 
@@ -204,5 +164,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.7.11261"
+	"WinGetVersion" : "1.8.1911"
 }
