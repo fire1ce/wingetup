@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-08-21T00:52:38.161-00:00",
+	"CreationDate" : "2024-09-01T01:44:23.925-00:00",
 	"Sources" : 
 	[
 		{
@@ -20,7 +20,7 @@
 				},
 				{
 					"PackageIdentifier" : "Mozilla.Firefox",
-					"Version" : "129.0.1"
+					"Version" : "129.0.2"
 				},
 				{
 					"PackageIdentifier" : "LizardByte.Sunshine",
@@ -31,16 +31,20 @@
 					"Version" : "7.01.0"
 				},
 				{
+					"PackageIdentifier" : "GitHub.cli",
+					"Version" : "2.55.0"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64",
 					"Version" : "10.0.40219"
 				},
 				{
 					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
-					"Version" : "4.2.6.0"
+					"Version" : "4.4.0.0"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli",
-					"Version" : "2.54.0"
+					"PackageIdentifier" : "Google.Chrome",
+					"Version" : "128.0.6613.114"
 				},
 				{
 					"PackageIdentifier" : "AgileBits.1Password",
@@ -49,10 +53,6 @@
 				{
 					"PackageIdentifier" : "ViGEm.ViGEmBus",
 					"Version" : "1.22.0"
-				},
-				{
-					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "127.0.6533.120"
 				},
 				{
 					"PackageIdentifier" : "Nvidia.PhysX",
@@ -64,11 +64,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "127.0.2651.105"
+					"Version" : "128.0.2739.54"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "127.0.2651.105"
+					"Version" : "128.0.2739.54"
 				},
 				{
 					"PackageIdentifier" : "Insecure.Nmap",
@@ -128,7 +128,7 @@
 				},
 				{
 					"PackageIdentifier" : "Spotify.Spotify",
-					"Version" : "1.2.44.405.g81fd6352"
+					"Version" : "1.2.45.454.gc16ec9f6"
 				},
 				{
 					"PackageIdentifier" : "WinSCP.WinSCP",
