@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-09-01T01:44:23.925-00:00",
+	"CreationDate" : "2024-09-18T21:36:45.546-00:00",
 	"Sources" : 
 	[
 		{
@@ -20,7 +20,7 @@
 				},
 				{
 					"PackageIdentifier" : "Mozilla.Firefox",
-					"Version" : "129.0.2"
+					"Version" : "130.0"
 				},
 				{
 					"PackageIdentifier" : "LizardByte.Sunshine",
@@ -31,12 +31,16 @@
 					"Version" : "7.01.0"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli",
-					"Version" : "2.55.0"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64",
 					"Version" : "10.0.40219"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli",
+					"Version" : "2.57.0"
+				},
+				{
+					"PackageIdentifier" : "AgileBits.1Password",
+					"Version" : "8.10.45"
 				},
 				{
 					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
@@ -44,11 +48,7 @@
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "128.0.6613.114"
-				},
-				{
-					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.40"
+					"Version" : "129.0.6668.59"
 				},
 				{
 					"PackageIdentifier" : "ViGEm.ViGEmBus",
@@ -64,11 +64,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "128.0.2739.54"
+					"Version" : "128.0.2739.79"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "128.0.2739.54"
+					"Version" : "128.0.2739.79"
 				},
 				{
 					"PackageIdentifier" : "Insecure.Nmap",
@@ -131,8 +131,12 @@
 					"Version" : "1.2.45.454.gc16ec9f6"
 				},
 				{
+					"PackageIdentifier" : "ebkr.r2modman",
+					"Version" : "3.1.50"
+				},
+				{
 					"PackageIdentifier" : "WinSCP.WinSCP",
-					"Version" : "6.3.4"
+					"Version" : "6.3.5"
 				},
 				{
 					"PackageIdentifier" : "LocalSend.LocalSend",
