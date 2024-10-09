@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-09-18T21:36:45.546-00:00",
+	"CreationDate" : "2024-10-09T23:17:22.699-00:00",
 	"Sources" : 
 	[
 		{
@@ -16,11 +16,11 @@
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.46.0"
+					"Version" : "2.46.2"
 				},
 				{
 					"PackageIdentifier" : "Mozilla.Firefox",
-					"Version" : "130.0"
+					"Version" : "131.0"
 				},
 				{
 					"PackageIdentifier" : "LizardByte.Sunshine",
@@ -35,24 +35,24 @@
 					"Version" : "10.0.40219"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli",
-					"Version" : "2.57.0"
-				},
-				{
-					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.45"
-				},
-				{
 					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
 					"Version" : "4.4.0.0"
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "129.0.6668.59"
+					"Version" : "129.0.6668.90"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli",
+					"Version" : "2.58.0"
 				},
 				{
 					"PackageIdentifier" : "ViGEm.ViGEmBus",
 					"Version" : "1.22.0"
+				},
+				{
+					"PackageIdentifier" : "AgileBits.1Password",
+					"Version" : "8.10.46"
 				},
 				{
 					"PackageIdentifier" : "Nvidia.PhysX",
@@ -64,11 +64,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "128.0.2739.79"
+					"Version" : "129.0.2792.79"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "128.0.2739.79"
+					"Version" : "129.0.2792.79"
 				},
 				{
 					"PackageIdentifier" : "Insecure.Nmap",
@@ -124,11 +124,11 @@
 				},
 				{
 					"PackageIdentifier" : "Gyan.FFmpeg",
-					"Version" : "7.0.2"
+					"Version" : "7.1"
 				},
 				{
 					"PackageIdentifier" : "Spotify.Spotify",
-					"Version" : "1.2.45.454.gc16ec9f6"
+					"Version" : "1.2.47.364.gf06e5cee"
 				},
 				{
 					"PackageIdentifier" : "ebkr.r2modman",
