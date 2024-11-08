@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-10-09T23:17:22.699-00:00",
+	"CreationDate" : "2024-11-08T13:56:43.481-00:00",
 	"Sources" : 
 	[
 		{
@@ -16,11 +16,11 @@
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.46.2"
+					"Version" : "2.47.0.2"
 				},
 				{
 					"PackageIdentifier" : "Mozilla.Firefox",
-					"Version" : "131.0"
+					"Version" : "132.0.1"
 				},
 				{
 					"PackageIdentifier" : "LizardByte.Sunshine",
@@ -35,28 +35,28 @@
 					"Version" : "10.0.40219"
 				},
 				{
-					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
-					"Version" : "4.4.0.0"
+					"PackageIdentifier" : "GitHub.cli",
+					"Version" : "2.61.0"
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "129.0.6668.90"
-				},
-				{
-					"PackageIdentifier" : "GitHub.cli",
-					"Version" : "2.58.0"
+					"Version" : "130.0.6723.117"
 				},
 				{
 					"PackageIdentifier" : "ViGEm.ViGEmBus",
 					"Version" : "1.22.0"
 				},
 				{
-					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.46"
-				},
-				{
 					"PackageIdentifier" : "Nvidia.PhysX",
 					"Version" : "9.23.1019"
+				},
+				{
+					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
+					"Version" : "4.4.1.0"
+				},
+				{
+					"PackageIdentifier" : "AgileBits.1Password",
+					"Version" : "8.10.50"
 				},
 				{
 					"PackageIdentifier" : "PuTTY.PuTTY",
@@ -64,11 +64,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "129.0.2792.79"
+					"Version" : "130.0.2849.68"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "129.0.2792.79"
+					"Version" : "130.0.2849.56"
 				},
 				{
 					"PackageIdentifier" : "Insecure.Nmap",
@@ -88,15 +88,15 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
-					"Version" : "14.40.33810.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
-					"Version" : "14.40.33810.0"
+					"Version" : "14.40.33816.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2005.x86",
 					"Version" : "8.0.61001"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
+					"Version" : "14.40.33816.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86",
@@ -112,7 +112,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
-					"Version" : "6.0.33"
+					"Version" : "6.0.35"
 				},
 				{
 					"PackageIdentifier" : "Discord.Discord",
@@ -128,11 +128,11 @@
 				},
 				{
 					"PackageIdentifier" : "Spotify.Spotify",
-					"Version" : "1.2.47.364.gf06e5cee"
+					"Version" : "1.2.49.439.gfae492c7"
 				},
 				{
 					"PackageIdentifier" : "ebkr.r2modman",
-					"Version" : "3.1.50"
+					"Version" : "3.1.51"
 				},
 				{
 					"PackageIdentifier" : "WinSCP.WinSCP",
@@ -144,7 +144,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller",
-					"Version" : "1.23.1911.0"
+					"Version" : "1.24.25180.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8",
@@ -164,5 +164,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.8.1911"
+	"WinGetVersion" : "1.9.25180"
 }
