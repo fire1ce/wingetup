@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-12-27T17:06:25.396-00:00",
+	"CreationDate" : "2025-01-27T00:37:28.794-00:00",
 	"Sources" : 
 	[
 		{
@@ -16,39 +16,35 @@
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.47.1"
+					"Version" : "2.47.1.2"
 				},
 				{
 					"PackageIdentifier" : "Mozilla.Firefox",
-					"Version" : "133.0.3"
+					"Version" : "134.0.2"
 				},
 				{
 					"PackageIdentifier" : "LizardByte.Sunshine",
-					"Version" : "0.23.1"
+					"Version" : "2025.122.141614"
 				},
 				{
 					"PackageIdentifier" : "RARLab.WinRAR",
 					"Version" : "7.01.0"
 				},
 				{
-					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
-					"Version" : "4.4.2.0"
+					"PackageIdentifier" : "Google.Chrome",
+					"Version" : "132.0.6834.111"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64",
 					"Version" : "10.0.40219"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli",
-					"Version" : "2.63.2"
-				},
-				{
 					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.56"
+					"Version" : "8.10.58"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "131.0.6778.205"
+					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
+					"Version" : "4.4.3.0"
 				},
 				{
 					"PackageIdentifier" : "ViGEm.ViGEmBus",
@@ -57,6 +53,10 @@
 				{
 					"PackageIdentifier" : "PuTTY.PuTTY",
 					"Version" : "0.82.0.0"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli",
+					"Version" : "2.65.0"
 				},
 				{
 					"PackageIdentifier" : "Nvidia.PhysX",
@@ -68,7 +68,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "131.0.2903.112"
+					"Version" : "132.0.2957.127"
 				},
 				{
 					"PackageIdentifier" : "Insecure.Nmap",
@@ -128,7 +128,7 @@
 				},
 				{
 					"PackageIdentifier" : "Spotify.Spotify",
-					"Version" : "1.2.51.345.gcc39d911"
+					"Version" : "1.2.56.497.g3da60fab"
 				},
 				{
 					"PackageIdentifier" : "ebkr.r2modman",
