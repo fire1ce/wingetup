@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-01-27T00:37:28.794-00:00",
+	"CreationDate" : "2025-04-11T20:09:49.962-00:00",
 	"Sources" : 
 	[
 		{
@@ -16,51 +16,47 @@
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.47.1.2"
+					"Version" : "2.49.0"
 				},
 				{
 					"PackageIdentifier" : "Mozilla.Firefox",
-					"Version" : "134.0.2"
-				},
-				{
-					"PackageIdentifier" : "LizardByte.Sunshine",
-					"Version" : "2025.122.141614"
+					"Version" : "137.0.1"
 				},
 				{
 					"PackageIdentifier" : "RARLab.WinRAR",
-					"Version" : "7.01.0"
+					"Version" : "7.11.0"
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome",
-					"Version" : "132.0.6834.111"
+					"Version" : "135.0.7049.85"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64",
 					"Version" : "10.0.40219"
 				},
 				{
-					"PackageIdentifier" : "AgileBits.1Password",
-					"Version" : "8.10.58"
-				},
-				{
-					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
-					"Version" : "4.4.3.0"
+					"PackageIdentifier" : "GitHub.cli",
+					"Version" : "2.69.0"
 				},
 				{
 					"PackageIdentifier" : "ViGEm.ViGEmBus",
 					"Version" : "1.22.0"
 				},
 				{
-					"PackageIdentifier" : "PuTTY.PuTTY",
-					"Version" : "0.82.0.0"
-				},
-				{
-					"PackageIdentifier" : "GitHub.cli",
-					"Version" : "2.65.0"
-				},
-				{
 					"PackageIdentifier" : "Nvidia.PhysX",
 					"Version" : "9.23.1019"
+				},
+				{
+					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
+					"Version" : "4.4.5.0"
+				},
+				{
+					"PackageIdentifier" : "PuTTY.PuTTY",
+					"Version" : "0.83.0.0"
+				},
+				{
+					"PackageIdentifier" : "AgileBits.1Password",
+					"Version" : "8.10.70"
 				},
 				{
 					"PackageIdentifier" : "PrimateLabs.Geekbench.6",
@@ -68,7 +64,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "132.0.2957.127"
+					"Version" : "135.0.3179.66"
 				},
 				{
 					"PackageIdentifier" : "Insecure.Nmap",
@@ -76,7 +72,7 @@
 				},
 				{
 					"PackageIdentifier" : "SoftFever.OrcaSlicer",
-					"Version" : "2.2.0"
+					"Version" : "2.3.0"
 				},
 				{
 					"PackageIdentifier" : "Valve.Steam",
@@ -91,12 +87,12 @@
 					"Version" : "6.0.36"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2005.x86",
-					"Version" : "8.0.61001"
+					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86",
+					"Version" : "11.0.61030.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
-					"Version" : "14.42.34433.0"
+					"PackageIdentifier" : "Microsoft.VCRedist.2005.x86",
+					"Version" : "8.0.61001"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86",
@@ -111,8 +107,16 @@
 					"Version" : "10.0.40219"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
+					"Version" : "14.42.34438.0"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
-					"Version" : "14.42.34433.0"
+					"Version" : "14.42.34438.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64",
+					"Version" : "11.0.61030.0"
 				},
 				{
 					"PackageIdentifier" : "Discord.Discord",
@@ -120,23 +124,23 @@
 				},
 				{
 					"PackageIdentifier" : "GodotEngine.GodotEngine",
-					"Version" : "4.3"
+					"Version" : "4.4.1"
 				},
 				{
 					"PackageIdentifier" : "Gyan.FFmpeg",
-					"Version" : "7.1"
+					"Version" : "7.1.1"
 				},
 				{
 					"PackageIdentifier" : "Spotify.Spotify",
-					"Version" : "1.2.56.497.g3da60fab"
+					"Version" : "1.2.61.443.gc51c574b"
 				},
 				{
 					"PackageIdentifier" : "ebkr.r2modman",
-					"Version" : "3.1.55"
+					"Version" : "3.1.57"
 				},
 				{
 					"PackageIdentifier" : "WinSCP.WinSCP",
-					"Version" : "6.3.6"
+					"Version" : "6.5"
 				},
 				{
 					"PackageIdentifier" : "LocalSend.LocalSend",
@@ -144,7 +148,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller",
-					"Version" : "1.24.25200.0"
+					"Version" : "1.25.340.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7",
@@ -152,7 +156,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8",
-					"Version" : "8.2310.30001.0"
+					"Version" : "8.2501.31001.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14",
@@ -168,5 +172,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.9.25200"
+	"WinGetVersion" : "1.10.340"
 }
